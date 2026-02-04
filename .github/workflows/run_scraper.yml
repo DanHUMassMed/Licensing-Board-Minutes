@@ -44,10 +44,16 @@ jobs:
 
           git add ${{ env.SCRAPER_DIR }}/scraper_state/url_exclude_list.json
           git add ${{ env.SCRAPER_DIR }}/scraper_state/hearing_video_links.json
-          git add ${{ env.PDFS_DIR }}/*.pdf
           git add ${{ env.SCRAPER_DIR }}/log/scraper.log
 
-          if ! git diff --quiet || ! git diff --staged --quiet; then
+          # Add PDFs only if the directory exists and has files
+          if [ -d "${{ env.PDFS_DIR }}" ]; then
+            git add ${{ env.PDFS_DIR }}/*.pdf || true
+          fi
+
+          if ! git diff --cached --quiet; then
             git commit -m "[SCRAPER] Update scraped data and PDFs"
             git push
+          else
+            echo "No changes to commit"
           fi

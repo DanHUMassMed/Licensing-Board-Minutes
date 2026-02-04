@@ -1,0 +1,19 @@
+# Ignore all files in the voting_minutes_txt directory
+voting_minutes_txt/
+
+# Ignore all files in the .venv directory
+.venv/
+
+# Ignore all files in the .DS_Store file
+.DS_Store
+
+log.txt
+
+app.log
+
+*.pyc
+
+__pycache__/
+
+.mypy_cache/
+.ruff_cache/

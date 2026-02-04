@@ -2,19 +2,20 @@ name: Run Licensing Board Scraper
 
 on:
   schedule:
-    - cron: "0 0 * * 1" # Runs at midnight every Monday
-    
-  workflow_dispatch: # Allows manual trigger
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
 
 permissions:
   contents: write
+  workflows: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
     env:
-      SCRAPER_DIR: ./scrape   # App Directory
-      PDFS_DIR: ./voting_minutes_pdfs  # PDF Output Directory
+      SCRAPER_DIR: ./scrape
+      PDFS_DIR: ./voting_minutes_pdfs
 
     steps:
       - name: Checkout code
@@ -28,7 +29,7 @@ jobs:
       - name: Install uv
         run: curl -LsSf https://astral.sh/uv/install.sh | sh
 
-      - name: Sync dependencies (from uv.lock)
+      - name: Sync dependencies
         working-directory: ${{ env.SCRAPER_DIR }}
         run: uv sync --frozen
 
@@ -40,10 +41,13 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+
           git add ${{ env.SCRAPER_DIR }}/scraper_state/url_exclude_list.json
           git add ${{ env.SCRAPER_DIR }}/scraper_state/hearing_video_links.json
-          git add ${{ env.PDFS_DIR }}
+          git add ${{ env.PDFS_DIR }}/*.pdf
           git add ${{ env.SCRAPER_DIR }}/log/scraper.log
-          git diff --quiet && git diff --staged --quiet || (
-            git commit -m "[SCRAPER] Update scraped data and PDFs" && git push
-          )Collapse comment
+
+          if ! git diff --quiet || ! git diff --staged --quiet; then
+            git commit -m "[SCRAPER] Update scraped data and PDFs"
+            git push
+          fi

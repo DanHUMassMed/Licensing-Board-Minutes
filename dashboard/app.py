@@ -10,7 +10,9 @@ st.set_page_config(
 )
 
 # Constants
-DATA_PATH = Path("../data/licenses.xlsx")
+APP_DIR = Path(__file__).parent
+PRJ_PATH = APP_DIR.parent
+DATA_PATH = PRJ_PATH /Path("data/licenses.xlsx")
 
 @st.cache_data
 def load_data():

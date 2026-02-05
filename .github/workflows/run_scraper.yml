@@ -15,7 +15,7 @@ jobs:
 
     env:
       SCRAPER_DIR: ./scrape
-      PDFS_DIR: ./voting_minutes_pdfs
+      PDFS_DIR: ./data/voting_minutes_pdfs
 
     steps:
       - name: Checkout code

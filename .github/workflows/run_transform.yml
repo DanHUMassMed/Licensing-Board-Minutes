@@ -1,0 +1,55 @@
+name: Run Licensing Board Transformer
+
+on:
+  workflow_run:
+    workflows: ["run_scraper"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+
+jobs:
+  transform:
+    runs-on: ubuntu-latest
+
+    env:
+      TRANSFORM_DIR: ./transform
+      DATA_DIR: ./data
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install uv
+        run: curl -LsSf https://astral.sh/uv/install.sh | sh
+
+      - name: Sync dependencies
+        working-directory: ${{ env.TRANSFORM_DIR }}
+        run: uv sync --frozen
+
+      - name: Run Transformer
+        working-directory: ${{ env.TRANSFORM_DIR }}
+        run: uv run python -m app.cli --dir ${{ env.DATA_DIR }}/voting_minutes_pdfs --output ${{ env.DATA_DIR }}/licenses.json 
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add ${{ env.DATA_DIR }}/licenses.json
+          git add ${{ env.DATA_DIR }}/licenses.xlsx
+          git add ${{ env.DATA_DIR }}/report.html
+
+          if ! git diff --cached --quiet; then
+            git commit -m "[TRANSFORMER] Update transformed data"
+            git push
+          else
+            echo "No changes to commit"
+          fi

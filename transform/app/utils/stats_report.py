@@ -4,6 +4,7 @@ import os
 import sys
 from collections import Counter
 from datetime import datetime
+from app.constants import DATA_DIR
 
 logger = logging.getLogger(__name__)
 
@@ -76,7 +77,7 @@ class HTMLReporter:
         self.stats = stats
         self.total_records = total_records
 
-    def generate(self, output_filename="report.html"):
+    def generate(self, output_filename=f"{DATA_DIR}/report.html"):
         """Creates the HTML report file."""
 
         # Simple CSS for a professional look

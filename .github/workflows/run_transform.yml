@@ -34,6 +34,11 @@ jobs:
         working-directory: ${{ env.TRANSFORM_DIR }}
         run: uv sync --frozen
 
+      - name: List files in workspace
+        run: |
+            pwd
+            ls -R ${{ env.DATA_DIR }}
+        
       - name: Run Transformer
         working-directory: ${{ env.TRANSFORM_DIR }}
         run: uv run python -m app.cli --dir ${{ env.DATA_DIR }}/voting_minutes_pdfs --output ${{ env.DATA_DIR }}/licenses.json 

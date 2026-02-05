@@ -324,3 +324,161 @@
 2026-02-04 21:12:35,629 - INFO - root -   minutes_links: 141
 2026-02-04 21:12:35,629 - INFO - root - Application finished successfully.
 2026-02-04 21:12:35,629 - INFO - root - Total runtime: 0 minutes 28.18 seconds
+2026-02-05 01:17:35,202 - INFO - root - Starting Licensing Board Scraper Application (CLI Mode)
+2026-02-05 01:17:35,209 - INFO - root - Text extraction skipped (no --txt-dir provided).
+2026-02-05 01:17:35,209 - INFO - app.pipeline.link_fetcher - Fetching https://www.boston.gov/departments/licensing-board/licensing-board-information-and-members...
+2026-02-05 01:17:37,558 - INFO - app.pipeline.link_fetcher - Found 605 raw links.
+2026-02-05 01:17:37,558 - INFO - app.link_filters.video_link_filter - Saving 404 video links to /home/runner/work/Licensing-Board-Minutes/Licensing-Board-Minutes/scrape/scraper_state/hearing_video_links.json...
+2026-02-05 01:17:37,560 - INFO - app.storage.json_store - Saved data to /home/runner/work/Licensing-Board-Minutes/Licensing-Board-Minutes/scrape/scraper_state/hearing_video_links.json
+2026-02-05 01:17:37,560 - INFO - app.pipeline.link_filter - Filtering complete. 141 links remaining.
+2026-02-05 01:17:37,560 - INFO - app.pipeline.date_extractor - Extracting dates from 141 links...
+2026-02-05 01:17:37,562 - INFO - app.pipeline.pdf_downloader - Starting download process...
+2026-02-05 01:17:37,692 - INFO - app.storage.pdf_store - Saved voting_minutes_2026-01-08.pdf
+2026-02-05 01:17:37,740 - INFO - app.storage.pdf_store - Saved voting_minutes_2026-01-29.pdf
+2026-02-05 01:17:37,890 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-01-09.pdf
+2026-02-05 01:17:37,978 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-01-16.pdf
+2026-02-05 01:17:38,229 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-01-23.pdf
+2026-02-05 01:17:38,351 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-02-13.pdf
+2026-02-05 01:17:38,427 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-02-27.pdf
+2026-02-05 01:17:38,472 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-03-06.pdf
+2026-02-05 01:17:38,579 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-03-27.pdf
+2026-02-05 01:17:38,683 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-04-03.pdf
+2026-02-05 01:17:38,944 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-04-17.pdf
+2026-02-05 01:17:39,036 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-05-01.pdf
+2026-02-05 01:17:39,120 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-05-15.pdf
+2026-02-05 01:17:39,219 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-05-29.pdf
+2026-02-05 01:17:39,305 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-06-05.pdf
+2026-02-05 01:17:39,438 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-06-26.pdf
+2026-02-05 01:17:39,521 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-07-17.pdf
+2026-02-05 01:17:39,712 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-07-31.pdf
+2026-02-05 01:17:39,809 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-08-07.pdf
+2026-02-05 01:17:39,954 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-08-28.pdf
+2026-02-05 01:17:40,062 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-09-18.pdf
+2026-02-05 01:17:40,148 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-10-23.pdf
+2026-02-05 01:17:41,404 - INFO - app.storage.pdf_store - Saved voting_minutes_yyyy-11-06.pdf
+2026-02-05 01:17:42,863 - INFO - app.storage.pdf_store - Saved voting_minutes_yyyy-11-20.pdf
+2026-02-05 01:17:43,205 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-12-04.pdf
+2026-02-05 01:17:43,310 - INFO - app.storage.pdf_store - Saved voting_minutes_2025-12-18.pdf
+2026-02-05 01:17:43,382 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-01-04.pdf
+2026-02-05 01:17:43,465 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-02-01.pdf
+2026-02-05 01:17:43,508 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-02-08.pdf
+2026-02-05 01:17:43,695 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-02-29.pdf
+2026-02-05 01:17:43,772 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-03-07.pdf
+2026-02-05 01:17:43,850 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-03-28.pdf
+2026-02-05 01:17:43,940 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-04-04.pdf
+2026-02-05 01:17:44,015 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-04-25.pdf
+2026-02-05 01:17:44,102 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-05-01.pdf
+2026-02-05 01:17:44,178 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-05-23.pdf
+2026-02-05 01:17:44,274 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-06-06.pdf
+2026-02-05 01:17:44,366 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-06-26.pdf
+2026-02-05 01:17:44,461 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-07-11.pdf
+2026-02-05 01:17:44,536 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-08-01.pdf
+2026-02-05 01:17:44,642 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-08-08.pdf
+2026-02-05 01:17:44,772 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-08-22.pdf
+2026-02-05 01:17:44,868 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-09-12.pdf
+2026-02-05 01:17:44,942 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-09-26.pdf
+2026-02-05 01:17:45,085 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-10-17.pdf
+2026-02-05 01:17:45,172 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-10-31.pdf
+2026-02-05 01:17:45,270 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-11-14.pdf
+2026-02-05 01:17:45,352 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-11-21.pdf
+2026-02-05 01:17:45,444 - INFO - app.storage.pdf_store - Saved voting_minutes_2024-12-12.pdf
+2026-02-05 01:17:45,558 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-01-05.pdf
+2026-02-05 01:17:45,631 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-01-25.pdf
+2026-02-05 01:17:45,765 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-02-02.pdf
+2026-02-05 01:17:45,864 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-02-16.pdf
+2026-02-05 01:17:45,947 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-03-08.pdf
+2026-02-05 01:17:46,022 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-03-30.pdf
+2026-02-05 01:17:46,115 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-04-06.pdf
+2026-02-05 01:17:46,218 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-04-27.pdf
+2026-02-05 01:17:46,350 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-05-04.pdf
+2026-02-05 01:17:46,433 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-05-25.pdf
+2026-02-05 01:17:46,474 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-06-08.pdf
+2026-02-05 01:17:46,518 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-06-29.pdf
+2026-02-05 01:17:46,606 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-07-20.pdf
+2026-02-05 01:17:46,847 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-08-17.pdf
+2026-02-05 01:17:46,942 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-09-14.pdf
+2026-02-05 01:17:47,016 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-09-28.pdf
+2026-02-05 01:17:47,121 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-10-04.pdf
+2026-02-05 01:17:47,232 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-10-26.pdf
+2026-02-05 01:17:47,314 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-11-02.pdf
+2026-02-05 01:17:47,443 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-11-16.pdf
+2026-02-05 01:17:47,541 - INFO - app.storage.pdf_store - Saved voting_minutes_2023-12-14.pdf
+2026-02-05 01:17:47,689 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-01-06.pdf
+2026-02-05 01:17:47,780 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-01-20.pdf
+2026-02-05 01:17:47,931 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-01-27.pdf
+2026-02-05 01:17:48,274 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-02-03.pdf
+2026-02-05 01:17:48,359 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-02-17.pdf
+2026-02-05 01:17:48,443 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-03-03.pdf
+2026-02-05 01:17:48,520 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-03-24.pdf
+2026-02-05 01:17:48,590 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-04-07.pdf
+2026-02-05 01:17:48,681 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-04-28.pdf
+2026-02-05 01:17:48,777 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-05-05.pdf
+2026-02-05 01:17:48,906 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-05-26.pdf
+2026-02-05 01:17:48,997 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-06-08.pdf
+2026-02-05 01:17:49,068 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-06-30.pdf
+2026-02-05 01:17:49,256 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-07-14.pdf
+2026-02-05 01:17:49,326 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-07-28.pdf
+2026-02-05 01:17:49,402 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-08-04.pdf
+2026-02-05 01:17:49,487 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-08-25.pdf
+2026-02-05 01:17:49,560 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-09-15.pdf
+2026-02-05 01:17:49,633 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-09-29.pdf
+2026-02-05 01:17:49,690 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-10-06.pdf
+2026-02-05 01:17:49,757 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-10-26.pdf
+2026-02-05 01:17:49,851 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-11-03.pdf
+2026-02-05 01:17:49,928 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-11-17.pdf
+2026-02-05 01:17:50,051 - INFO - app.storage.pdf_store - Saved voting_minutes_2022-12-15.pdf
+2026-02-05 01:17:50,120 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-01-21.pdf
+2026-02-05 01:17:50,205 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-01-28.pdf
+2026-02-05 01:17:50,288 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-02-04.pdf
+2026-02-05 01:17:50,374 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-02-25.pdf
+2026-02-05 01:17:50,469 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-03-04.pdf
+2026-02-05 01:17:50,556 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-04-01.pdf
+2026-02-05 01:17:50,646 - INFO - app.storage.pdf_store - Saved voting_minutes_yyyy-mm-dd.pdf
+2026-02-05 01:17:50,737 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-04-08.pdf
+2026-02-05 01:17:50,811 - INFO - app.storage.pdf_store - No change - voting_minutes_yyyy-mm-dd.pdf is up to date
+2026-02-05 01:17:51,317 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-04-20.pdf
+2026-02-05 01:17:51,410 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-04-29.pdf
+2026-02-05 01:17:51,677 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-05-06.pdf
+2026-02-05 01:17:52,103 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-05-27.pdf
+2026-02-05 01:17:52,185 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-06-03.pdf
+2026-02-05 01:17:52,294 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-06-24.pdf
+2026-02-05 01:17:52,389 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-07-01.pdf
+2026-02-05 01:17:52,536 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-07-29.pdf
+2026-02-05 01:17:52,637 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-08-09.pdf
+2026-02-05 01:17:52,759 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-08-26.pdf
+2026-02-05 01:17:52,962 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-09-02.pdf
+2026-02-05 01:17:53,086 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-09-30.pdf
+2026-02-05 01:17:53,209 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-10-07.pdf
+2026-02-05 01:17:53,281 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-10-28.pdf
+2026-02-05 01:17:53,373 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-11-04.pdf
+2026-02-05 01:17:53,492 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-11-18.pdf
+2026-02-05 01:17:53,634 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-12-02.pdf
+2026-02-05 01:17:53,779 - INFO - app.storage.pdf_store - Saved voting_minutes_2021-12-16.pdf
+2026-02-05 01:17:53,882 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-12-23.pdf
+2026-02-05 01:17:53,960 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-12-03.pdf
+2026-02-05 01:17:54,041 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-11-05.pdf
+2026-02-05 01:17:54,128 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-10-29.pdf
+2026-02-05 01:17:54,240 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-10-08.pdf
+2026-02-05 01:17:54,318 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-10-01.pdf
+2026-02-05 01:17:54,464 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-09-17.pdf
+2026-02-05 01:17:54,561 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-09-10.pdf
+2026-02-05 01:17:54,636 - INFO - app.storage.pdf_store - No change - voting_minutes_2020-09-10.pdf is up to date
+2026-02-05 01:17:54,790 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-08-20.pdf
+2026-02-05 01:17:54,896 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-08-13.pdf
+2026-02-05 01:17:54,972 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-07-30.pdf
+2026-02-05 01:17:55,043 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-07-16.pdf
+2026-02-05 01:17:55,240 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-06-04.pdf
+2026-02-05 01:17:55,330 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-05-28.pdf
+2026-02-05 01:17:55,420 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-05-21.pdf
+2026-02-05 01:17:55,496 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-05-14.pdf
+2026-02-05 01:17:55,587 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-05-07.pdf
+2026-02-05 01:17:55,671 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-04-23.pdf
+2026-02-05 01:17:55,757 - INFO - app.storage.pdf_store - Saved voting_minutes_2020-04-30.pdf
+2026-02-05 01:17:55,757 - INFO - root - Link Statistics Summary:
+2026-02-05 01:17:55,758 - INFO - root -   total_links: 605
+2026-02-05 01:17:55,758 - INFO - root -   client_side_links: 15
+2026-02-05 01:17:55,758 - INFO - root -   video_links: 404
+2026-02-05 01:17:55,758 - INFO - root -   excluded_links: 45
+2026-02-05 01:17:55,758 - INFO - root -   minutes_links: 141
+2026-02-05 01:17:55,758 - INFO - root - Application finished successfully.
+2026-02-05 01:17:55,758 - INFO - root - Total runtime: 0 minutes 20.55 seconds

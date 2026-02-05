@@ -2,7 +2,7 @@ name: Run Licensing Board Transformer
 
 on:
   workflow_run:
-    workflows: ["run_scraper"]
+    workflows: ["Run Licensing Board Scraper"]
     types: [completed]
   workflow_dispatch:
 

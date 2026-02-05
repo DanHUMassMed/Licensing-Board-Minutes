@@ -33,10 +33,10 @@ jobs:
       - name: Sync dependencies
         working-directory: ${{ env.TRANSFORM_DIR }}
         run: uv sync --frozen
-
+        
       - name: Run Transformer
         working-directory: ${{ env.TRANSFORM_DIR }}
-        run: uv run python -m app.cli --dir ${{ env.DATA_DIR }}/voting_minutes_pdfs --output ${{ env.DATA_DIR }}/licenses.json 
+        run: uv run python -m app.cli --dir "$GITHUB_WORKSPACE/data/voting_minutes_pdfs" --output "$GITHUB_WORKSPACE/data/licenses.json" 
 
       - name: Commit and push changes
         run: |

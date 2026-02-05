@@ -16,7 +16,7 @@ jobs:
 
     env:
       TRANSFORM_DIR: ./transform
-      DATA_DIR: ../data
+      DATA_DIR: ./data
 
     steps:
       - name: Checkout code

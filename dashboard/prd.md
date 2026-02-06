@@ -13,5 +13,3 @@ using minutes_date field
 and select only granted licenses that is field status == 'granted'
 
 this should the the initial design with the expectation that the app will be expanded in the future
-
-the app will be hosted on github pages

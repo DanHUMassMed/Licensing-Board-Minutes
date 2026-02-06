@@ -4,6 +4,7 @@ import os
 
 import pandas as pd
 from openpyxl.styles import Font, PatternFill
+from app.constants import BASE_PDF_URL
 
 logger = logging.getLogger(__name__)
 
@@ -25,7 +26,7 @@ def json_excel(json_path: str, excel_path: str):
 
         # Convert to DataFrame
         df = pd.DataFrame(data)
-
+    
         # Build sort config only for columns that exist
         sort_columns = []
         ascending = []
@@ -56,6 +57,19 @@ def json_excel(json_path: str, excel_path: str):
             # Access the openpyxl objects
             # workbook = writer.book # (Used implicitly by sheets)
             worksheet = writer.sheets["Licenses"]
+
+            # Convert file_name column to clickable Excel hyperlinks
+            if "file_name" in df.columns:
+                file_col_idx = df.columns.get_loc("file_name") + 1
+                hyperlink_font = Font(color="0000FF", underline="single")
+                for row_idx in range(2, len(df) + 2):
+                    cell = worksheet.cell(row=row_idx, column=file_col_idx)
+                    filename = cell.value
+                    if filename:
+                        url = f"{BASE_PDF_URL}{filename}"
+                        cell.value = filename
+                        cell.hyperlink = url
+                        cell.font = hyperlink_font
 
             # Auto column width
             for idx, col in enumerate(df.columns):

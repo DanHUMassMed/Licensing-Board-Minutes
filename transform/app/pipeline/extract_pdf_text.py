@@ -1,6 +1,7 @@
 import logging
 
 import fitz  # PyMuPDF
+import unicodedata
 
 from app import constants as const
 from app.pipeline.run_result import RunResult
@@ -53,6 +54,21 @@ class PDFTextExtractorStep:
         Remove all non-ASCII characters from text.
         Keeps characters in the range 0–127.
         """
+
+        if not text:
+            return text
+
+        # Normalize unicode (é → e, etc.)
+        text = unicodedata.normalize("NFKD", text)
+
+        # Replace smart quotes/backticks with normal apostrophe
+        text = (
+            text.replace("’", "'")
+                .replace("‘", "'")
+                .replace("`", "'")
+                .replace("´", "'")
+        )
+
         return text.encode("ascii", errors="ignore").decode("ascii")
 
     def _remove_underscore_lines(self, text: str) -> str:

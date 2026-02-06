@@ -8,7 +8,7 @@ LOG_DIR = BASE_DIR / "log"
 # Files
 VIDEO_LINKS_FILE = STATE_DIR / "hearing_video_links.json"
 URL_EXCLUDE_LIST_FILE = STATE_DIR / "url_exclude_list.json"
-DOWNLOAD_DIR = BASE_DIR / "../voting_minutes_pdfs"
+DOWNLOAD_DIR = BASE_DIR / "../data/voting_minutes_pdfs"
 EXCEPTION_PDFS = STATE_DIR / "exception_pdfs"
 
 # Scraping

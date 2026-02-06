@@ -19,3 +19,7 @@ lint: check-venv
 
 run: check-venv
 	$(PYTHON) -m app.cli
+
+run-txt: check-venv
+	$(PYTHON) -m app.cli --txt-dir ../data/voting_minutes_txt
+

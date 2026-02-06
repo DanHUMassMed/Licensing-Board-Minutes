@@ -10,15 +10,10 @@ st.set_page_config(
 )
 
 # Constants
-<<<<<<< HEAD
-APP_DIR = Path(__file__).parent
-PRJ_PATH = APP_DIR.parent
-DATA_PATH = PRJ_PATH /Path("data/licenses.xlsx")
-=======
 DATA_PATH = Path("../data/licenses.xlsx")
+
 TARGETED_ZIPCODES = ["02126", "02121", "02119", "02124", "02136", "02125", "02122", "02118", "02128", "02131", "02130", "02129", "02132"]
 NON_TARGETED_ZIPCODES = ["02111", "02120", "02134", "02115", "02199", "02215", "02116", "02114", "02127", "02108", "02210", "02109", "02113", "02110", "02128"]
->>>>>>> 1033cf9 (update dashboard)
 
 @st.cache_data
 def load_data():
@@ -45,10 +40,8 @@ def load_data():
         
     return df
 
-def main():
-    st.title("🍹 Boston Licensing Board Dashboard")
- 
-    # Download Excel file
+def render_download_section():
+    """Render the data download button."""
     if DATA_PATH.exists():
         with open(DATA_PATH, "rb") as f:
             st.download_button(
@@ -60,112 +53,171 @@ def main():
     else:
         st.warning("Excel file not available for download.")
 
-
-    df = load_data()
-
-    # --- Section 1: Business Search (Independent) ---
+def render_business_search(df):
+    """Render the business search section."""
     st.header("Business Search")
     st.caption(f"Searching {len(df):,} total records")
 
-    search_query = st.text_input("Search by Name, DBA, or License #", placeholder="e.g. Starbucks").strip().lower()
+    # Radio button to select search mode
+    search_mode = st.radio(
+        "Search Mode",
+        options=["Business Name", "License Number"],
+        horizontal=True
+    )
 
-    if search_query:
-        # Search logic on the FULL dataset (df), independent of date range
-        search_cols = ["business_name", "dba_name", "license_number"]
-        cols_to_search = [c for c in search_cols if c in df.columns]
-        
-        if cols_to_search:
-            search_mask = df[cols_to_search].apply(
-                lambda x: x.astype(str).str.lower().str.contains(search_query, na=False)
-            ).any(axis=1)
-            search_results = df[search_mask]
-        else:
-            search_results = pd.DataFrame()
-
-        st.write(f"Found {len(search_results)} results:")
-        
-        # Hide specific columns for the table view
-        #hide_cols = ["address", "state", "status_detail", "details", "entity_number"]
-        hide_cols = ["address", "state", "status_detail", "entity_number"]
-        display_cols = [c for c in search_results.columns if c not in hide_cols]
-
-        # Interactive Table with Selection
-        # We use st.dataframe with on_select
-        event = st.dataframe(
-            search_results[display_cols],
-            use_container_width=True,
-            on_select="rerun",
-            selection_mode="single-row",
-            hide_index=True
-        )
-        
-        # Show Details if selected
-        if event.selection.rows:
-            selected_row_idx = event.selection.rows[0]
-            # Get the actual row from the filtered dataframe using iloc
-            selected_row = search_results.iloc[selected_row_idx]
-            
-            st.markdown("### License Details")
-            # Display details in a nice format (e.g., JSON or key-value pairs)
-            # Filter out internal columns/NaNs for cleaner view
-            details = selected_row.dropna().to_dict()
-            st.json(details)
+    # Multi-line text area for input
+    if search_mode == "Business Name":
+        placeholder_text = "Enter business names (one per line)\ne.g.\nStarbucks\nDunkin Donuts\nBoston Beer Company"
+        search_label = "Business Names"
     else:
-        st.info("Enter a search term to find businesses.")
+        placeholder_text = "Enter license numbers (one per line)\ne.g.\n123456\n789012\n345678"
+        search_label = "License Numbers"
+
+    search_input = st.text_area(
+        search_label,
+        placeholder=placeholder_text,
+        height=150
+    )
+
+    if search_input.strip():
+        # Parse input - split by newlines and clean up
+        search_terms = [term.strip() for term in search_input.split('\n') if term.strip()]
+        
+        if not search_terms:
+            st.info(f"Please enter at least one {search_label.lower()}.")
+            st.divider()
+            return
+        
+        # Track found and not found
+        found_results = []
+        not_found = []
+        
+        if search_mode == "Business Name":
+            # Search in business_name and dba_name columns
+            search_cols = ["business_name", "dba_name"]
+            cols_to_search = [c for c in search_cols if c in df.columns]
+            
+            if not cols_to_search:
+                st.error("Business name columns not found in data.")
+                st.divider()
+                return
+            
+            for term in search_terms:
+                # Search for this term (case-insensitive)
+                term_lower = term.lower()
+                matches = df[df[cols_to_search].apply(
+                    lambda x: x.astype(str).str.lower().str.contains(term_lower, na=False, regex=False)
+                ).any(axis=1)]
+                
+                if not matches.empty:
+                    # Add all matches for this term
+                    for _, row in matches.iterrows():
+                        found_results.append(row)
+                else:
+                    not_found.append(term)
+        
+        else:  # License Number mode
+            if "license_number" not in df.columns:
+                st.error("License number column not found in data.")
+                st.divider()
+                return
+            
+            for term in search_terms:
+                # Search for exact license number (case-insensitive)
+                matches = df[df["license_number"].astype(str).str.lower() == term.lower()]
+                
+                if not matches.empty:
+                    found_results.append(matches.iloc[0])
+                else:
+                    not_found.append(term)
+        
+        # Display not found entries
+        if not_found:
+            st.warning(f"**Not Found ({len(not_found)}):** {', '.join(not_found)}")
+        
+        # Display found results
+        if found_results:
+            st.success(f"**Found {len(found_results)} record(s)**")
+            
+            # Convert to dataframe
+            found_df = pd.DataFrame(found_results)
+            
+            # Remove duplicates if any
+            found_df = found_df.drop_duplicates()
+            
+            # Hide specific columns for the table view
+            hide_cols = ["address", "state", "status_detail", "entity_number"]
+            display_cols = [c for c in found_df.columns if c not in hide_cols]
+            
+            # Display as an interactive table
+            event = st.dataframe(
+                found_df[display_cols],
+                use_container_width=True,
+                on_select="rerun",
+                selection_mode="single-row",
+                hide_index=True
+            )
+            
+            # Show Details if selected
+            if event.selection.rows:
+                selected_row_idx = event.selection.rows[0]
+                selected_row = found_df.iloc[selected_row_idx]
+                
+                st.markdown("### License Details")
+                details = selected_row.dropna().to_dict()
+                st.json(details)
+        else:
+            st.info("No records found.")
+    else:
+        st.info(f"Enter {search_label.lower()} above to begin search.")
 
     st.divider()
 
-    # --- Section 1: Charts & Analysis (Controlled by Date) ---
-    st.header("Analyzing Granted Licenses")
 
-    # Filter for granted licenses as per PRD
-    if "status" in df.columns:
-        chart_df = df[df["status"].str.lower() == "granted"]
-
-    if chart_df.empty:
-        st.warning("No data available to display.")
-        return
-
-    # Quarterly Range Slider (Full Width)
+def filter_by_date(chart_df):
+    """Filter the dataframe by date using a slider."""
     if "minutes_date" in chart_df.columns:
-        # Get all quarters in the data range
-        min_date = chart_df["minutes_date"].min()
-        max_date = chart_df["minutes_date"].max()
+        # Get unique sorted meeting dates
+        available_dates = sorted(chart_df["minutes_date"].dropna().unique())
         
-        # Simpler approach: construct quarterly labels
-        all_quarters = pd.date_range(start=min_date, end=max_date, freq='QS')
-        if not all_quarters.empty and all_quarters[0] > min_date:
-             all_quarters = all_quarters.insert(0, min_date.to_period('Q').start_time)
-        if all_quarters.empty or all_quarters[-1] < max_date:
-            all_quarters = all_quarters.insert(len(all_quarters), max_date.to_period('Q').start_time)
-
-        all_quarters = sorted(list(set(all_quarters)))
-        labels = [f"Q{q.quarter} {q.year}" for q in all_quarters]
-        label_to_date = dict(zip(labels, all_quarters))
+        # Convert to string format for the slider (YYYY-MM-DD)
+        date_options = [pd.to_datetime(d).strftime('%Y-%m-%d') for d in available_dates]
+        
+        if not date_options:
+             st.warning("No valid meeting dates found.")
+             return chart_df
+        
+        # Default to full range
+        start_default = date_options[0]
+        end_default = date_options[-1]
 
         selected_range = st.select_slider(
-            "Select Quarter Range",
-            options=labels,
-            value=(labels[0], labels[-1])
+            "Select Meeting Range",
+            options=date_options,
+            value=(start_default, end_default)
         )
         
-        start_label, end_label = selected_range
-        start_date = label_to_date[start_label]
-        end_date = label_to_date[end_label] + pd.offsets.QuarterEnd(0)
+        start_date_str, end_date_str = selected_range
+        
+        # Convert back to datetime for filtering
+        start_date = pd.to_datetime(start_date_str)
+        end_date = pd.to_datetime(end_date_str)
         
         # Filter for Charts
         mask = (chart_df["minutes_date"] >= start_date) & (chart_df["minutes_date"] <= end_date)
-        charts_df = chart_df[mask]
+        return chart_df[mask]
     else:
-        charts_df = chart_df
+        return chart_df
 
-    # Display Metrics
+def render_metrics(charts_df):
+    """Render summary metrics."""
     col1, col2, col3 = st.columns(3)
     col1.metric("Total Licenses (Granted)", len(charts_df))
     col2.metric("Unique Zipcodes", charts_df["zipcode"].nunique() if "zipcode" in charts_df.columns else 0)
     col3.metric("Alcohol Types", charts_df["alcohol_type"].nunique() if "alcohol_type" in charts_df.columns else 0)
 
-    # Charts Section
+def render_zipcode_charts(charts_df):
+    """Render targeted and non-targeted zipcode charts."""
     if "zipcode" in charts_df.columns and "alcohol_type" in charts_df.columns:
         
         # 1. Targeted Zipcodes Chart
@@ -193,6 +245,55 @@ def main():
 
     st.divider()
 
+def render_meeting_chart(charts_df):
+    """Render the Granted Licenses by Meeting chart."""
+    st.subheader("Granted Licenses by meeting")
+    
+    if "minutes_date" in charts_df.columns:
+        # Group by meeting date and count
+        meeting_counts = charts_df.groupby("minutes_date").size().reset_index(name="Granted Licenses")
+        # Set index to minutes_date for the bar chart
+        meeting_counts = meeting_counts.set_index("minutes_date")
+        
+        st.bar_chart(meeting_counts, y="Granted Licenses", use_container_width=True)
+    else:
+        st.info("No meeting date information available.")
+
+    st.divider()
+
+def render_analysis_section(df):
+    """Render the analysis section with date filtering and charts."""
+    st.header("Analyzing Granted Licenses")
+
+    # Filter for granted licenses as per PRD
+    if "status" in df.columns:
+        chart_df = df[df["status"].str.lower() == "granted"]
+    else:
+        chart_df = df # Fallback
+
+    if chart_df.empty:
+        st.warning("No data available to display.")
+        return
+
+    # Filter by Date
+    charts_df = filter_by_date(chart_df)
+
+    # Display Metrics
+    render_metrics(charts_df)
+
+    # Render Charts
+    render_zipcode_charts(charts_df)
+    render_meeting_chart(charts_df)
+
+def main():
+    st.title("🍹 Boston Licensing Board Dashboard")
+    render_download_section()
+
+    df = load_data()
+
+    render_business_search(df)
+    render_analysis_section(df)
+ 
 
 if __name__ == "__main__":
     main()

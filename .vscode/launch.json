@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: transform cli",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/transform/app/cli.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/transform",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/transform"
+            },
+            "python": "${workspaceFolder}/transform/.venv/bin/python",
+            "args": [
+                "--file",
+                "${workspaceFolder}/data/voting_minutes_pdfs/voting_minutes_2025-10-01.pdf"
+            ]
+        }
+    ]
+}

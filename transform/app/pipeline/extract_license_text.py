@@ -157,8 +157,6 @@ class LicenseTextExtractorStep:
                 chunk_text = hearing_date_line + "\n" + chunk_text
                 extracted_chunks[output_key] = chunk_text
             else:
-                logger.warning(
-                    f"Skipping chunk {idx} in {basename}: missing license numbers"
-                )
+                logger.warning(f"Skipping Chunk {idx} in {basename}: {chunk_text}")
 
         return extracted_chunks

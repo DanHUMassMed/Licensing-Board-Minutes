@@ -1,0 +1,1226 @@
+2026-02-06 15:09:09,610 - INFO - Processing single file: ../data/voting_minutes_pdfs/voting_minutes_2025-08-07.pdf
+2026-02-06 15:09:09,638 - DEBUG - Results: [{'minutes_date': '2025-08-06', 'license_number': 'LB-603611', 'business_name': 'Chickin Worx, Inc.', 'dba_name': 'Burg & Shaw', 'address': '80 Boylston St, Boston, MA 02116', 'street_number': '80', 'street_name': 'Boylston St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02116', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Ahmed Kadous', 'attorney': None, 'status': 'granted', 'status_detail': 'Granted', 'details': 'Has applied for a Common Victualler License to be exercised on the above -750SF Ground-floor, takeout-only restaurant includes a customer area, kitchen, back-of-house ware washing and storage areas, a walk-in cooler, and an employee restroom.', 'entity_number': '1', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-604354', 'business_name': 'Pink Carrot Back Bay, LLC', 'dba_name': 'Pink Carrot', 'address': '400 Newbury St, Boston, MA 02115', 'street_number': '400', 'street_name': 'Newbury St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02115', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Robert Fautz', 'attorney': None, 'status': 'granted', 'status_detail': 'Granted', 'details': 'Has applied for a Common Victualler License to be exercised on the above -Single-story quick-serve restaurant with a takeout option located in Suite 1000. The interior includes 24 seats on the main floor, a kitchen, and two rear bathrooms. A seasonal private outdoor patio (April through October) offers an additional 12 seats and operates during the same hours as the indoor restaurant.', 'entity_number': '2', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-131728', 'business_name': 'XZelent, Inc.', 'dba_name': "Fiskie's Cafe", 'address': '27 Harbor Point Blvd, Dorchester, MA 02125', 'street_number': '27', 'street_name': 'Harbor Point Blvd', 'city': 'Dorchester', 'state': 'MA', 'zipcode': '02125', 'alcohol_type': 'all alcoholic beverages', 'manager': None, 'attorney': None, 'status': 'granted', 'status_detail': 'Granted, with a closing hour of 1:00 AM', 'details': 'Holder of a Common Victualler License has petitioned to Change the Closing Hour of the licensed business - From: 7:00 AM - 11:00 PM To: 7:00 AM - 3:00 AM.', 'entity_number': '3', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-99779', 'business_name': 'Nite Lite Cafe, LLC', 'dba_name': 'Nite Lite Cafe', 'address': '89 Charles St, Boston, MA 02114', 'street_number': '89', 'street_name': 'Charles St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02114', 'alcohol_type': 'wines and malt beverages', 'manager': None, 'attorney': 'Elizabeth Pisano', 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of a Common Victualler 7 Day Wines and Malt Beverages with Liqueurs License has petitioned to change the DBA of the licensed business -  From: Nite Lite Cafe To: 89 Charles.', 'entity_number': '4', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-101635', 'business_name': 'Beau Geste XXV, LLC', 'dba_name': 'Doubletree Guest Suites', 'address': '400 Soldiers Field Rd, Allston, MA 02134', 'street_number': '400', 'street_name': 'Soldiers Field Rd', 'city': 'Allston', 'state': 'MA', 'zipcode': '02134', 'alcohol_type': 'all alcoholic beverages', 'manager': None, 'attorney': None, 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of an Innholder All-Alcoholic Beverages License has petitioned to change the manager of the licensed business - From: Tarun Shanker To: Fergal Gildea.', 'entity_number': '5', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-98811', 'business_name': 'Chilton Club', 'dba_name': None, 'address': '150-152 Commonwealth Ave, Boston, MA 02116', 'street_number': '150-152', 'street_name': 'Commonwealth Ave', 'city': 'Boston', 'state': 'MA', 'zipcode': '02116', 'alcohol_type': 'all alcoholic beverages', 'manager': None, 'attorney': None, 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of a Club All-Alcoholic Beverages License has petitioned for a change of Officers/Directors.', 'entity_number': '6', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-485388', 'business_name': 'Trinity Stuart Concessions, LLC', 'dba_name': 'The Raffles Hotel', 'address': '40 Trinity Place, Boston, MA 02116', 'street_number': '40', 'street_name': 'Trinity Pl', 'city': 'Boston', 'state': 'MA', 'zipcode': '02116', 'alcohol_type': 'all alcoholic beverages', 'manager': None, 'attorney': 'Elizabeth Pisano', 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of an Innholder All-Alcoholic Beverages License has petitioned for a change of Ownership Interest. Secondly, has petitioned for a change of Officers/Directors/LLC Managers.', 'entity_number': '7', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-353145', 'business_name': 'GB LL Holdings MA, LLC', 'dba_name': 'goPuff', 'address': '371 Dorchester Ave, South Boston, MA 02127', 'street_number': '371', 'street_name': 'Dorchester Ave', 'city': 'South Boston', 'state': 'MA', 'zipcode': '02127', 'alcohol_type': 'all alcoholic beverages', 'manager': None, 'attorney': "Caroline O'Connell", 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of a Retail Package Store All-Alcoholic Beverages License has petitioned for a change of Ownership Interest. Secondly, has petitioned for a change of Officers/Directors/LLC Managers. Lastly, has petitioned to change the manager of the licensed business - From: Christopher Walsh To: Kelly Carillo.', 'entity_number': '8', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-101867', 'business_name': 'GB LL Holdings MA, LLC', 'dba_name': 'Boston Liquors', 'address': '225-227 Cambridge St, Allston, MA 02134', 'street_number': '225-227', 'street_name': 'Cambridge St', 'city': 'Allston', 'state': 'MA', 'zipcode': '02134', 'alcohol_type': 'all alcoholic beverages', 'manager': None, 'attorney': "Caroline O'Connell", 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of a Retail Package Store All-Alcoholic Beverages License has petitioned to amend the description of the licensed business - From: 225, 227 Cambridge Street and 361 North Harvard Street, in one room first floor with rear room for stock. To: 225, 227 Cambridge Street and 361 North Harvard Street. The first floor is 8,000 square feet and has two rooms, one of which is for stock. The basement has 3,150 square feet and has two rooms, one which is 3,000 sq. ft and one which is 150 sq.ft. Secondly, has petitioned for a change of Ownership Interest. Thirdly, has petitioned for a change of Officers/Directors/LLC Managers. Lastly, has petitioned to change the manager of the licensed business - From: Jamie Villanueva To: Nam Sam.', 'entity_number': '9', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-101663', 'business_name': 'Hersha Hospitality Management, L.P.', 'dba_name': 'Bulfinch Social at the Boxer Hotel', 'address': '119 Merrimac St, Boston, MA 02114', 'street_number': '119', 'street_name': 'Merrimac St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02114', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Ignacio Casanova Hausmann', 'attorney': 'Dennis A. Quilty', 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of an Innholder All-Alcoholic Beverages License has petitioned to transfer the license from the above - To: BM Merrimac Hotel, LLC dba Bulfinch Social at Boxer Hotel (at the same location). Ignacio Casanova Hausmann, Manager. 2:00 AM Closing Hour. Updating the description of premise as follows: In whole of said building for the operation of a full service hotel with 80 guest rooms, with restaurant and lounge on ground floor with bar and approximately 49 seats. All together comprised of 39,100 square feet with 4 entrances and exits.', 'entity_number': '10', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-99350', 'business_name': 'Frank Pezzano', 'dba_name': "U'Sarraceno Restaurant", 'address': '286 Hanover St, Boston, MA 02113', 'street_number': '286', 'street_name': 'Hanover St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02113', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Frank Pezzano', 'attorney': 'Carolyn M. Conway', 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of a Common Victualler 7 Day All-Alcoholic Beverages License has petitioned to transfer the license from the above - To: F.P. Restaurant, Inc. (with updated stockholders and officers) dba Saraceno/Bella Vista (at the same location). Frank Pezzano, Manager. 1:00 AM Closing Hour. Secondly, has petitioned to amend the description of the licensed premise -From: One room on Basement Level - One room on Street Level and Kitchen - Storage in Basement Level. To: (7200 SF total, 2 entrances, 3 exits) In three floors: (1) basement level, totaling 2400 square feet, in two (2)rooms with 64 seats and 36 seats respectively, office and bathrooms; first floor level, totaling 2400 square feet, in two rooms: the first room with 40 seats, bathroom and kitchen in rear, and the second room with a 12-seat bar and table seating of 20, a second kitchen and bathroom in rear; the second floor level, totaling 2400 square feet, in two rooms, the first room for liquor and sundries storage and the second room for dining with 57 seats.', 'entity_number': '11', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-99764', 'business_name': 'Grotto, Inc.', 'dba_name': 'Grotto Restaurant', 'address': '37 Bowdoin St, Boston, MA 02114', 'street_number': '37', 'street_name': 'Bowdoin St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02114', 'alcohol_type': 'wines and malt beverages', 'manager': '02116 Justine Zozula', 'attorney': 'Nicholas J. Zozula', 'status': 'granted', 'status_detail': 'Granted', 'details': "Holder of a Common Victualler 7 Day Wines and Malt Beverages with Liqueurs License has petitioned to transfer the license and the location - From: Grotto, Inc. located at 37 Bowdoin St, Boston, MA 02114 To: AV 565 Boylston, LLC dba All'Antico Vinaio located at 565 Boylston St, Boston, MA 02116 Justine Zozula, Manager. 1:00 AM Closing Hour. Premises consists of 3,680 square feet on ground floor and basement level. One entrance, two exits. Front entrance on Boylston Street. Dining area with seating for 30 patrons. Kitchen area and prep table to the right center, two bathrooms and refrigerators to the left center. Additional prep area in the rear. Basement for storage. Outdoor patio seating for 12 patrons on private property. Patio is approximately 391 square feet and open seasonally from April 1 to October 31, closing hour same as indoors.", 'entity_number': '12', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-603679', 'business_name': 'Bon Sole Market, LLC', 'dba_name': 'Bon Sole Market', 'address': '48 Blue Hill Ave, Roxbury, MA 02119', 'street_number': '48', 'street_name': 'Blue Hill Ave', 'city': 'Roxbury', 'state': 'MA', 'zipcode': '02119', 'alcohol_type': 'wines and malt beverages', 'manager': 'Mac-Clen Pierre', 'attorney': None, 'status': 'deferred', 'status_detail': 'Deferred to the August 28 Voting Hearing', 'details': 'Has applied for a Retail Package Store Wines and Malt Beverages License to be exercised on the above - 2100 SF Convenience/Grocery store located on the first floor of a mixed-use building with 1 entrance/ 1 exit. Front of the store contains (3) 2-door coolers, shelves for snacks, and checkout area. Back of store contains (3) additional 2-door coolers and shelves for groceries and storage.', 'entity_number': '13', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-603676', 'business_name': 'Aguasvivas Market, Inc.', 'dba_name': 'Aguasvivas Market', 'address': '926 Morton St, Dorchester, MA 02124', 'street_number': '926', 'street_name': 'Morton St', 'city': 'Dorchester', 'state': 'MA', 'zipcode': '02124', 'alcohol_type': 'wines and malt beverages', 'manager': 'Angel Aguasvivas Lara', 'attorney': 'Travis J. Jacobs', 'status': 'deferred', 'status_detail': 'Deferred to the August 28 Voting Hearing', 'details': 'Has applied for a Retail Package Store Wines and Malt Beverages License to be exercised on the above - 820SF convenience store on 1 floor with 1 entrance/2 exits. As you walk in, the service counter is to the left; shelving units and refrigerators throughout; additional 820SF in the basement for storage only.', 'entity_number': '14', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-603680', 'business_name': "Tao's Newbury, Inc.", 'dba_name': "Tao's", 'address': '336 Newbury St, Boston, MA 02115', 'street_number': '336', 'street_name': 'Newbury St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02115', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Jason Blackburn', 'attorney': None, 'status': 'granted', 'status_detail': 'Granted', 'details': 'Has applied for a Retail Package Store All-Alcoholic Beverages License to be exercised on the above - Premise also known as 334-336 Newbury Street - 3823SF retail space with 1 entrance and 1 exit for customers (336) and 1 entrance and 1 exit for warehouse (334); to include various shelving and display units, refrigerators/freezers along with back wall, and storage in the rear. No outdoor space.', 'entity_number': '15', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-603706', 'business_name': 'MDM Wine6, LLC', 'dba_name': 'VinoDivino', 'address': '533-545 Commonwealth Ave, Boston, MA 02215', 'street_number': '533-545', 'street_name': 'Commonwealth Ave', 'city': 'Boston', 'state': 'MA', 'zipcode': '02215', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Angelo David Ucci', 'attorney': 'Thomas P. Miller', 'status': 'deferred', 'status_detail': 'APPLICATION DEADLINE. THE BOARD WILL DEFER DELIBERATION TO CONSIDER', 'details': 'Has applied for a Retail Package Store All-Alcoholic Beverages License to be exercised on the above - (Premise located at 543 Commonwealth Ave, 1st Floor) On one floor and containing approximately 1,606 sq ft, contains five rooms. Entrance opens to display room with shelves, cooler, and point of sale. Tasting room to left side of display room. Storage room with exit on rear right side. Dishroom and bathrooms rear left side.', 'entity_number': '16', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-603744', 'business_name': 'Liuyishou Hotpot Boston, LLC', 'dba_name': 'Liuyishou Hotpot', 'address': '702 Washington St, Boston, MA 02111', 'street_number': '702', 'street_name': 'Washington St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02111', 'alcohol_type': 'wines and malt beverages', 'manager': 'Po Ching Chan', 'attorney': 'Thomas P. Miller', 'status': 'deferred', 'status_detail': 'Deferred', 'details': 'Has applied for a Common Victualler 7 Day Wines and Malt Beverages License to be exercised on the above - (5,532SF total with 1 entrance/exit) On two floors: First floor approx. 3,429sf in two rooms with seating for 60 and kitchen; basement approx. 2,103sf, with storage, walk in coolers, prep area and office.', 'entity_number': '17', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-603766', 'business_name': 'RFC LA, LLC', 'dba_name': "Roger's Fish & Chips", 'address': '1 Harborside Drive, East Boston, MA 02128', 'street_number': '1', 'street_name': 'Harborside Dr', 'city': 'East Boston', 'state': 'MA', 'zipcode': '02128', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Roger Berkowitz', 'attorney': 'Richard Heller', 'status': 'granted', 'status_detail': 'Granted', 'details': 'Has applied for a Common Victualler 7 Day (Airport) All-Alcoholic Beverages License to be exercised on the above - Space known as Unit AS-2-A02 in Terminal A consisting of 700 square feet. Includes a limited food prep space and is in an area in the Terminal occupied by a number of concessionaires with an adjacent food court seating area where alcohol will be consumed.', 'entity_number': '18', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-603681', 'business_name': 'South Bay Fields Pie Company, LLC', 'dba_name': "Sally's Apizza", 'address': '9 District Ave, Dorchester, MA 02125', 'street_number': '9', 'street_name': 'District Ave', 'city': 'Dorchester', 'state': 'MA', 'zipcode': '02125', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Eric Gelfond', 'attorney': 'Adam R. Barnosky', 'status': 'deferred', 'status_detail': 'APPLICATION DEADLINE. THE BOARD WILL DEFER DELIBERATION UNTIL THE', 'details': 'Has applied for a Common Victualler (South Bay Restricted) 7 Day All-Alcoholic Beverages License to be exercised on the above  4965 sq. ft. of restaurant space and an additional 967 sq. ft. outdoor patio located on private property, including a bar, kitchen, pizza kitchen, prep space, cooler, office, storage, dining area and bathrooms in Suite #400 on the ground floor of Building D located in the shopping center known as South Bay. The premises contains indoor seating for 138, including 15 at the bar and an additional 48 on the outdoor patio, 2 entrances and 3 exits. Outdoor patio is seasonal, it will operate from May-November and close at 10 pm daily.', 'entity_number': '19', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-603690', 'business_name': '1750 Washington, Inc.', 'dba_name': 'Nan Xiang Express', 'address': '1750 Washington St, Roxbury, MA 02118', 'street_number': '1750', 'street_name': 'Washington St', 'city': 'Roxbury', 'state': 'MA', 'zipcode': '02118', 'alcohol_type': 'wines and malt beverages', 'manager': 'So Lim Ting', 'attorney': 'Carolyn M. Conway', 'status': 'deferred', 'status_detail': 'Deferred', 'details': 'Has applied for a Common Victualler 7 Day Wines and Malt Beverages License to be exercised on the above - In one room on first floor with 45 seats, kitchen, storage and bathrooms in rear consisting of 2887 total square feet. (1 entrance, 3 exits).', 'entity_number': '20', 'file_name': 'voting_minutes_2025-08-07.pdf'}, {'minutes_date': '2025-08-06', 'license_number': 'LB-603763', 'business_name': 'Beitna, LLC', 'dba_name': 'BEY', 'address': '280 Shawmut Ave, Roxbury, MA 02118', 'street_number': '280', 'street_name': 'Shawmut Ave', 'city': 'Roxbury', 'state': 'MA', 'zipcode': '02118', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Lina Samaha', 'attorney': 'Thomas P. Miller', 'status': 'deferred', 'status_detail': 'Deferred', 'details': 'Has applied for a Common Victualler 7 Day All-Alcoholic Beverages License to be exercised on the above  Premise consists of approximately 1,800 square feet on ground floor and basement (1 entrance, 2 exits). Ground floor main room for dining with seats for 41 patrons. Kitchen rear left, bathrooms rear right. Stairway to basement front left. Basement level dining area with seats for 26 patrons. Prep kitchen and exit in rear.', 'entity_number': '21', 'file_name': 'voting_minutes_2025-08-07.pdf'}]
+2026-02-06 15:09:09,638 - DEBUG - All results: 
+======================================================================
+KVStore FULL STATE DUMP
+Total keys: 5
+======================================================================
+SECTION: PDF_FILE_PATH (str, len=57)
+----------------------------------------------------------------------
+../data/voting_minutes_pdfs/voting_minutes_2025-08-07.pdf
+======================================================================
+SECTION: HEARING_SECTION (str, len=13033)
+----------------------------------------------------------------------
+Transactional Hearing on Wednesday, August 6, 2025 
+ 
+1. Chickin Worx, Inc. 
+ 
+Doing business as: Burg & Shaw 
+80 Boylston St, Boston, MA 02116 
+License #:  LB-603611 
+Has applied for a Common Victualler License to be exercised on the above -750SF Ground-floor, 
+takeout-only restaurant includes a customer area, kitchen, back-of-house ware washing and storage 
+areas, a walk-in cooler, and an employee restroom. 
+Manager:  Ahmed Kadous 
+Hours of Operation:  10:00 AM to 1:00 AM 
+ 
+Granted 
+ 
+ 
+2. Pink Carrot Back Bay, LLC 
+ 
+Doing business as: Pink Carrot 
+400 Newbury St, Boston, MA 02115 
+License #:  LB-604354 
+Has applied for a Common Victualler License to be exercised on the above -Single-story quick-serve 
+restaurant with a takeout option located in Suite 1000. The interior includes 24 seats on the main floor, a 
+kitchen, and two rear bathrooms. A seasonal private outdoor patio (April through October) offers an 
+additional 12 seats and operates during the same hours as the indoor restaurant. 
+Manager:  Robert Fautz 
+Hours of Operation:  8:00 AM to 8:00 PM 
+ 
+Granted
+3. XZelent, Inc. 
+ 
+Doing business as: Fiskie's Cafe  
+27 Harbor Point Blvd, Dorchester, MA 02125 
+License #:  LB-131728 
+Holder of a Common Victualler License has petitioned to Change the Closing Hour of the licensed 
+business - From: 7:00 AM - 11:00 PM To: 7:00 AM - 3:00 AM. 
+ 
+Granted, with a closing hour of 1:00 AM 
+The Board requests written permission from the Licensee's landlord prior to issuance 
+ 
+ 
+4. Nite Lite Cafe, LLC 
+ 
+Doing business as: Nite Lite Cafe 
+89 Charles St, Boston, MA 02114 
+License #:  LB-99779 
+Holder of a Common Victualler 7 Day Wines and Malt Beverages with Liqueurs License has petitioned 
+to change the DBA of the licensed business -  From: Nite Lite Cafe To: 89 Charles. 
+Attorney:  Elizabeth Pisano 
+ 
+Granted 
+ 
+ 
+5. Beau Geste XXV, LLC 
+ 
+Doing business as: Doubletree Guest Suites 
+400 Soldiers Field Rd, Allston, MA 02134 
+License #:  LB-101635 
+Holder of an Innholder All-Alcoholic Beverages License has petitioned to change the manager of the 
+licensed business - From: Tarun Shanker To: Fergal Gildea. 
+ 
+Granted 
+ 
+ 
+6. Chilton Club 
+ 
+150-152 Commonwealth Ave, Boston, MA 02116 
+License #:  LB-98811 
+Holder of a Club All-Alcoholic Beverages License has petitioned for a change of Officers/Directors. 
+ 
+Granted
+7. Trinity Stuart Concessions, LLC 
+ 
+Doing business as: The Raffles Hotel 
+40 Trinity Place, Boston, MA 02116 
+License #:  LB-485388 
+Holder of an Innholder All-Alcoholic Beverages License has petitioned for a change of Ownership 
+Interest. Secondly, has petitioned for a change of Officers/Directors/LLC Managers. 
+Attorney:  Elizabeth Pisano 
+ 
+Granted 
+ 
+ 
+8. GB LL Holdings MA, LLC 
+ 
+Doing business as: goPuff 
+371 Dorchester Ave, South Boston, MA 02127 
+License #:  LB-353145 
+Holder of a Retail Package Store All-Alcoholic Beverages License has petitioned for a change of 
+Ownership Interest. Secondly, has petitioned for a change of Officers/Directors/LLC Managers. Lastly, 
+has petitioned to change the manager of the licensed business - From: Christopher Walsh To: Kelly 
+Carillo. 
+Attorney:  Caroline O'Connell 
+ 
+Granted 
+ 
+ 
+9. GB LL Holdings MA, LLC 
+ 
+Doing business as: Boston Liquors 
+225-227 Cambridge St, Allston, MA 02134 
+License #:  LB-101867 
+Holder of a Retail Package Store All-Alcoholic Beverages License has petitioned to amend the 
+description of the licensed business - From: 225, 227 Cambridge Street and 361 North Harvard Street, 
+in one room first floor with rear room for stock. To: 225, 227 Cambridge Street and 361 North Harvard 
+Street. The first floor is 8,000 square feet and has two rooms, one of which is for stock. The basement 
+has 3,150 square feet and has two rooms, one which is 3,000 sq. ft and one which is 150 sq.ft. Secondly, 
+has petitioned for a change of Ownership Interest. Thirdly, has petitioned for a change of  
+Officers/Directors/LLC Managers. Lastly, has petitioned to change the manager of the licensed business 
+- From: Jamie Villanueva To: Nam Sam. 
+Attorney:  Caroline O'Connell 
+ 
+Granted
+10. Hersha Hospitality Management, L.P. 
+ 
+Doing business as: Bulfinch Social at the Boxer Hotel  
+119 Merrimac St, Boston, MA 02114 
+License #:  LB-101663 
+Holder of an Innholder All-Alcoholic Beverages License has petitioned to transfer the license from the 
+above - To: BM Merrimac Hotel, LLC dba Bulfinch Social at Boxer Hotel (at the same location). 
+Ignacio Casanova Hausmann, Manager. 2:00 AM Closing Hour. Updating the description of premise as 
+follows: In whole of said building for the operation of a full service hotel with 80 guest rooms, with 
+restaurant and lounge on ground floor with bar and approximately 49 seats. All together comprised of 
+39,100 square feet with 4 entrances and exits. 
+Attorney:  Dennis A. Quilty 
+ 
+Granted 
+ 
+11. Frank Pezzano 
+ 
+Doing business as: U'Sarraceno Restaurant 
+286 Hanover St, Boston, MA 02113 
+License #:  LB-99350 
+Holder of a Common Victualler 7 Day All-Alcoholic Beverages License has petitioned to transfer the 
+license from the above - To: F.P. Restaurant, Inc. (with updated stockholders and officers) dba 
+Saraceno/Bella Vista (at the same location). Frank Pezzano, Manager. 1:00 AM Closing Hour. 
+Secondly, has petitioned to amend the description of the licensed premise -From: One room on 
+Basement Level - One room on Street Level and Kitchen - Storage in Basement Level. To: (7200 SF 
+total, 2 entrances, 3 exits) In three floors: (1) basement level, totaling 2400 square feet, in two (2)rooms 
+with 64 seats and 36 seats respectively, office and bathrooms; first floor level, totaling 2400 square feet, 
+in two rooms: the first room with 40 seats, bathroom and kitchen in rear, and the second room with a 
+12-seat bar and table seating of 20, a second kitchen and bathroom in rear; the second floor level, 
+totaling 2400 square feet, in two rooms, the first room for liquor and sundries storage and the second 
+room for dining with 57 seats. 
+Attorney:  Carolyn M. Conway 
+ 
+Granted
+12. Grotto, Inc. 
+ 
+Doing business as: Grotto Restaurant 
+37 Bowdoin St, Boston, MA 02114 
+License #:  LB-99764 
+Holder of a Common Victualler 7 Day Wines and Malt Beverages with Liqueurs License has petitioned 
+to transfer the license and the location - From: Grotto, Inc. located at 37 Bowdoin St, Boston, MA 
+02114 To: AV 565 Boylston, LLC dba All'Antico Vinaio located at 565 Boylston St, Boston, MA 
+02116 Justine Zozula, Manager. 1:00 AM Closing Hour. Premises consists of 3,680 square feet on 
+ground floor and basement level. One entrance, two exits. Front entrance on Boylston Street. Dining 
+area with seating for 30 patrons. Kitchen area and prep table to the right center, two bathrooms and 
+refrigerators to the left center. Additional prep area in the rear. Basement for storage. Outdoor patio 
+seating for 12 patrons on private property. Patio is approximately 391 square feet and open seasonally 
+from April 1 to October 31, closing hour same as indoors. 
+Attorney:  Nicholas J. Zozula 
+ 
+Granted 
+ 
+ 
+13. Bon Sole Market, LLC 
+ 
+Doing business as: Bon Sole Market 
+48 Blue Hill Ave, Roxbury, MA 02119 
+License #:  LB-603679 
+Has applied for a Retail Package Store Wines and Malt Beverages License to be exercised on the above 
+- 2100 SF Convenience/Grocery store located on the first floor of a mixed-use building with 1 entrance/ 
+1 exit. Front of the store contains (3) 2-door coolers, shelves for snacks, and checkout area. Back of 
+store contains (3) additional 2-door coolers and shelves for groceries and storage. 
+Manager:  Mac-Clen Pierre 
+Closing Time:  11:00 PM 
+ 
+Deferred to the August 28 Voting Hearing 
+ 
+ 
+14. Aguasvivas Market, Inc. 
+ 
+Doing business as: Aguasvivas Market 
+926 Morton St, Dorchester, MA 02124 
+License #:  LB-603676 
+Has applied for a Retail Package Store Wines and Malt Beverages License to be exercised on the above 
+- 820SF convenience store on 1 floor with 1 entrance/2 exits. As you walk in, the service counter is to 
+the left; shelving units and refrigerators throughout; additional 820SF in the basement for storage only. 
+Manager:  Angel Aguasvivas Lara 
+Closing Time:  11:00 PM 
+Attorney:  Travis J. Jacobs 
+ 
+Deferred to the August 28 Voting Hearing
+15. Tao's Newbury, Inc. 
+ 
+Doing business as: Tao's 
+336 Newbury St, Boston, MA 02115 
+License #:  LB-603680 
+Has applied for a Retail Package Store All-Alcoholic Beverages License to be exercised on the above - 
+Premise also known as 334-336 Newbury Street - 3823SF retail space with 1 entrance and 1 exit for 
+customers (336) and 1 entrance and 1 exit for warehouse (334); to include various shelving and display 
+units, refrigerators/freezers along with back wall, and storage in the rear. No outdoor space. 
+Manager:  Jason Blackburn 
+Closing Time:  9:00 PM 
+ 
+Granted 
+ 
+ 
+16. MDM Wine6, LLC 
+ 
+Doing business as: VinoDivino 
+533-545 Commonwealth Ave, Boston, MA 02215 
+License #:  LB-603706 
+Has applied for a Retail Package Store All-Alcoholic Beverages License to be exercised on the above - 
+(Premise located at 543 Commonwealth Ave, 1st Floor) On one floor and containing approximately 
+1,606 sq ft, contains five rooms. Entrance opens to display room with shelves, cooler, and point of sale. 
+Tasting room to left side of display room. Storage room with exit on rear right side. Dishroom and 
+bathrooms rear left side. 
+Manager:  Angelo David Ucci 
+Closing Time:  11:00 PM 
+Attorney:  Thomas P. Miller 
+ 
+Granted 
+Condition: No nips (miniature bottles), no singles 
+ 
+ 
+THE FOLLOWING APPLICATION WAS COMPLETED PRIOR TO THE MAY 23 
+APPLICATION DEADLINE. THE BOARD WILL DEFER DELIBERATION TO CONSIDER 
+THIS APPLICATION WITH ALL OTHERS THAT WERE RECEIVED BY MAY 23  
+ 
+17. Liuyishou Hotpot Boston, LLC 
+ 
+Doing business as: Liuyishou Hotpot  
+702 Washington St, Boston, MA 02111 
+License #:  LB-603744 
+Has applied for a Common Victualler 7 Day Wines and Malt Beverages License to be exercised on the 
+above - (5,532SF total with 1 entrance/exit) On two floors: First floor approx. 3,429sf in two rooms 
+with seating for 60 and kitchen; basement approx. 2,103sf, with storage, walk in coolers, prep area and 
+office. 
+Manager:  Po Ching Chan 
+Closing Time:  11:30 PM 
+Attorney:  Thomas P. Miller 
+ 
+Deferred
+18. RFC LA, LLC 
+ 
+Doing business as: Roger's Fish & Chips 
+1 Harborside Drive, East Boston, MA 02128 
+License #:  LB-603766 
+Has applied for a Common Victualler 7 Day (Airport) All-Alcoholic Beverages License to be exercised 
+on the above - Space known as Unit AS-2-A02 in Terminal A consisting of 700 square feet. Includes a 
+limited food prep space and is in an area in the Terminal occupied by a number of concessionaires with 
+an adjacent food court seating area where alcohol will be consumed. 
+Manager:  Roger Berkowitz 
+Closing Time:  2:00 AM 
+Attorney:  Richard Heller 
+ 
+Granted 
+ 
+ 
+19. South Bay Fields Pie Company, LLC 
+ 
+Doing business as: Sally's Apizza 
+9 District Ave, Dorchester, MA 02125 
+License #:  LB-603681 
+Has applied for a Common Victualler (South Bay Restricted) 7 Day All-Alcoholic Beverages License to 
+be exercised on the above  4965 sq. ft. of restaurant space and an additional 967 sq. ft. outdoor patio 
+located on private property, including a bar, kitchen, pizza kitchen, prep space, cooler, office, storage, 
+dining area and bathrooms in Suite #400 on the ground floor of Building D located in the shopping 
+center known as South Bay. The premises contains indoor seating for 138, including 15 at the bar and 
+an additional 48 on the outdoor patio, 2 entrances and 3 exits. Outdoor patio is seasonal, it will operate 
+from May-November and close at 10 pm daily. 
+Manager:  Eric Gelfond 
+Closing Time:  11:00 PM 
+Attorney:  Adam R. Barnosky 
+ 
+Granted
+THE FOLLOWING APPLICATIONS WERE NOT COMPLETE PRIOR TO THE MAY 23 
+APPLICATION DEADLINE. THE BOARD WILL DEFER DELIBERATION UNTIL THE 
+NEXT APPLICATION DEADLINE HAS PASSED.   
+ 
+20. 1750 Washington, Inc. 
+ 
+Doing business as: Nan Xiang Express 
+1750 Washington St, Roxbury, MA 02118 
+License #:  LB-603690 
+Has applied for a Common Victualler 7 Day Wines and Malt Beverages License to be exercised on the 
+above - In one room on first floor with 45 seats, kitchen, storage and bathrooms in rear consisting of 
+2887 total square feet. (1 entrance, 3 exits). 
+Manager:  So Lim Ting 
+Closing Time:  12:00 AM 
+Attorney:  Carolyn M. Conway 
+ 
+Deferred 
+ 
+ 
+21. Beitna, LLC 
+ 
+Doing business as: BEY 
+280 Shawmut Ave, Roxbury, MA 02118 
+License #:  LB-603763 
+Has applied for a Common Victualler 7 Day All-Alcoholic Beverages License to be exercised on the 
+above  Premise consists of approximately 1,800 square feet on ground floor and basement (1 entrance, 
+2 exits). Ground floor main room for dining with seats for 41 patrons. Kitchen rear left, bathrooms rear 
+right. Stairway to basement front left. Basement level dining area with seats for 26 patrons. Prep kitchen 
+and exit in rear. 
+Manager:  Lina Samaha 
+Closing Time:  12:00 AM 
+Attorney:  Thomas P. Miller 
+ 
+Deferred
+======================================================================
+SECTION: LICENSE_TEXT_DATA (dict, size=21)
+----------------------------------------------------------------------
+Key  : voting_minutes_2025-08-07.pdf_1
+Value: Date:2025-08-06
+1. Chickin Worx, Inc. 
+ 
+Doing business as: Burg & Shaw 
+80 Boylston St, Boston, MA 02116 
+License #:  LB-603611 
+Has applied for a Common Victualler License to be exercised on the above -750SF Ground-floor, 
+takeout-only restaurant includes a customer area, kitchen, back-of-house ware washing and storage 
+areas, a walk-in cooler, and an employee restroom. 
+Manager:  Ahmed Kadous 
+Hours of Operation:  10:00 AM to 1:00 AM 
+ 
+Granted 
+ 
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_2
+Value: Date:2025-08-06
+2. Pink Carrot Back Bay, LLC 
+ 
+Doing business as: Pink Carrot 
+400 Newbury St, Boston, MA 02115 
+License #:  LB-604354 
+Has applied for a Common Victualler License to be exercised on the above -Single-story quick-serve 
+restaurant with a takeout option located in Suite 1000. The interior includes 24 seats on the main floor, a 
+kitchen, and two rear bathrooms. A seasonal private outdoor patio (April through October) offers an 
+additional 12 seats and operates during the same hours as the indoor restaurant. 
+Manager:  Robert Fautz 
+Hours of Operation:  8:00 AM to 8:00 PM 
+ 
+Granted
+------
+Key  : voting_minutes_2025-08-07.pdf_3
+Value: Date:2025-08-06
+3. XZelent, Inc. 
+ 
+Doing business as: Fiskie's Cafe  
+27 Harbor Point Blvd, Dorchester, MA 02125 
+License #:  LB-131728 
+Holder of a Common Victualler License has petitioned to Change the Closing Hour of the licensed 
+business - From: 7:00 AM - 11:00 PM To: 7:00 AM - 3:00 AM. 
+ 
+Granted, with a closing hour of 1:00 AM 
+The Board requests written permission from the Licensee's landlord prior to issuance 
+ 
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_4
+Value: Date:2025-08-06
+4. Nite Lite Cafe, LLC 
+ 
+Doing business as: Nite Lite Cafe 
+89 Charles St, Boston, MA 02114 
+License #:  LB-99779 
+Holder of a Common Victualler 7 Day Wines and Malt Beverages with Liqueurs License has petitioned 
+to change the DBA of the licensed business -  From: Nite Lite Cafe To: 89 Charles. 
+Attorney:  Elizabeth Pisano 
+ 
+Granted 
+ 
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_5
+Value: Date:2025-08-06
+5. Beau Geste XXV, LLC 
+ 
+Doing business as: Doubletree Guest Suites 
+400 Soldiers Field Rd, Allston, MA 02134 
+License #:  LB-101635 
+Holder of an Innholder All-Alcoholic Beverages License has petitioned to change the manager of the 
+licensed business - From: Tarun Shanker To: Fergal Gildea. 
+ 
+Granted 
+ 
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_6
+Value: Date:2025-08-06
+6. Chilton Club 
+ 
+150-152 Commonwealth Ave, Boston, MA 02116 
+License #:  LB-98811 
+Holder of a Club All-Alcoholic Beverages License has petitioned for a change of Officers/Directors. 
+ 
+Granted
+------
+Key  : voting_minutes_2025-08-07.pdf_7
+Value: Date:2025-08-06
+7. Trinity Stuart Concessions, LLC 
+ 
+Doing business as: The Raffles Hotel 
+40 Trinity Place, Boston, MA 02116 
+License #:  LB-485388 
+Holder of an Innholder All-Alcoholic Beverages License has petitioned for a change of Ownership 
+Interest. Secondly, has petitioned for a change of Officers/Directors/LLC Managers. 
+Attorney:  Elizabeth Pisano 
+ 
+Granted 
+ 
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_8
+Value: Date:2025-08-06
+8. GB LL Holdings MA, LLC 
+ 
+Doing business as: goPuff 
+371 Dorchester Ave, South Boston, MA 02127 
+License #:  LB-353145 
+Holder of a Retail Package Store All-Alcoholic Beverages License has petitioned for a change of 
+Ownership Interest. Secondly, has petitioned for a change of Officers/Directors/LLC Managers. Lastly, 
+has petitioned to change the manager of the licensed business - From: Christopher Walsh To: Kelly 
+Carillo. 
+Attorney:  Caroline O'Connell 
+ 
+Granted 
+ 
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_9
+Value: Date:2025-08-06
+9. GB LL Holdings MA, LLC 
+ 
+Doing business as: Boston Liquors 
+225-227 Cambridge St, Allston, MA 02134 
+License #:  LB-101867 
+Holder of a Retail Package Store All-Alcoholic Beverages License has petitioned to amend the 
+description of the licensed business - From: 225, 227 Cambridge Street and 361 North Harvard Street, 
+in one room first floor with rear room for stock. To: 225, 227 Cambridge Street and 361 North Harvard 
+Street. The first floor is 8,000 square feet and has two rooms, one of which is for stock. The basement 
+has 3,150 square feet and has two rooms, one which is 3,000 sq. ft and one which is 150 sq.ft. Secondly, 
+has petitioned for a change of Ownership Interest. Thirdly, has petitioned for a change of  
+Officers/Directors/LLC Managers. Lastly, has petitioned to change the manager of the licensed business 
+- From: Jamie Villanueva To: Nam Sam. 
+Attorney:  Caroline O'Connell 
+ 
+Granted
+------
+Key  : voting_minutes_2025-08-07.pdf_10
+Value: Date:2025-08-06
+10. Hersha Hospitality Management, L.P. 
+ 
+Doing business as: Bulfinch Social at the Boxer Hotel  
+119 Merrimac St, Boston, MA 02114 
+License #:  LB-101663 
+Holder of an Innholder All-Alcoholic Beverages License has petitioned to transfer the license from the 
+above - To: BM Merrimac Hotel, LLC dba Bulfinch Social at Boxer Hotel (at the same location). 
+Ignacio Casanova Hausmann, Manager. 2:00 AM Closing Hour. Updating the description of premise as 
+follows: In whole of said building for the operation of a full service hotel with 80 guest rooms, with 
+restaurant and lounge on ground floor with bar and approximately 49 seats. All together comprised of 
+39,100 square feet with 4 entrances and exits. 
+Attorney:  Dennis A. Quilty 
+ 
+Granted 
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_11
+Value: Date:2025-08-06
+11. Frank Pezzano 
+ 
+Doing business as: U'Sarraceno Restaurant 
+286 Hanover St, Boston, MA 02113 
+License #:  LB-99350 
+Holder of a Common Victualler 7 Day All-Alcoholic Beverages License has petitioned to transfer the 
+license from the above - To: F.P. Restaurant, Inc. (with updated stockholders and officers) dba 
+Saraceno/Bella Vista (at the same location). Frank Pezzano, Manager. 1:00 AM Closing Hour. 
+Secondly, has petitioned to amend the description of the licensed premise -From: One room on 
+Basement Level - One room on Street Level and Kitchen - Storage in Basement Level. To: (7200 SF 
+total, 2 entrances, 3 exits) In three floors: (1) basement level, totaling 2400 square feet, in two (2)rooms 
+with 64 seats and 36 seats respectively, office and bathrooms; first floor level, totaling 2400 square feet, 
+in two rooms: the first room with 40 seats, bathroom and kitchen in rear, and the second room with a 
+12-seat bar and table seating of 20, a second kitchen and bathroom in rear; the second floor level, 
+totaling 2400 square feet, in two rooms, the first room for liquor and sundries storage and the second 
+room for dining with 57 seats. 
+Attorney:  Carolyn M. Conway 
+ 
+Granted
+------
+Key  : voting_minutes_2025-08-07.pdf_12
+Value: Date:2025-08-06
+12. Grotto, Inc. 
+ 
+Doing business as: Grotto Restaurant 
+37 Bowdoin St, Boston, MA 02114 
+License #:  LB-99764 
+Holder of a Common Victualler 7 Day Wines and Malt Beverages with Liqueurs License has petitioned 
+to transfer the license and the location - From: Grotto, Inc. located at 37 Bowdoin St, Boston, MA 
+02114 To: AV 565 Boylston, LLC dba All'Antico Vinaio located at 565 Boylston St, Boston, MA 
+02116 Justine Zozula, Manager. 1:00 AM Closing Hour. Premises consists of 3,680 square feet on 
+ground floor and basement level. One entrance, two exits. Front entrance on Boylston Street. Dining 
+area with seating for 30 patrons. Kitchen area and prep table to the right center, two bathrooms and 
+refrigerators to the left center. Additional prep area in the rear. Basement for storage. Outdoor patio 
+seating for 12 patrons on private property. Patio is approximately 391 square feet and open seasonally 
+from April 1 to October 31, closing hour same as indoors. 
+Attorney:  Nicholas J. Zozula 
+ 
+Granted 
+ 
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_13
+Value: Date:2025-08-06
+13. Bon Sole Market, LLC 
+ 
+Doing business as: Bon Sole Market 
+48 Blue Hill Ave, Roxbury, MA 02119 
+License #:  LB-603679 
+Has applied for a Retail Package Store Wines and Malt Beverages License to be exercised on the above 
+- 2100 SF Convenience/Grocery store located on the first floor of a mixed-use building with 1 entrance/ 
+1 exit. Front of the store contains (3) 2-door coolers, shelves for snacks, and checkout area. Back of 
+store contains (3) additional 2-door coolers and shelves for groceries and storage. 
+Manager:  Mac-Clen Pierre 
+Closing Time:  11:00 PM 
+ 
+Deferred to the August 28 Voting Hearing 
+ 
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_14
+Value: Date:2025-08-06
+14. Aguasvivas Market, Inc. 
+ 
+Doing business as: Aguasvivas Market 
+926 Morton St, Dorchester, MA 02124 
+License #:  LB-603676 
+Has applied for a Retail Package Store Wines and Malt Beverages License to be exercised on the above 
+- 820SF convenience store on 1 floor with 1 entrance/2 exits. As you walk in, the service counter is to 
+the left; shelving units and refrigerators throughout; additional 820SF in the basement for storage only. 
+Manager:  Angel Aguasvivas Lara 
+Closing Time:  11:00 PM 
+Attorney:  Travis J. Jacobs 
+ 
+Deferred to the August 28 Voting Hearing
+------
+Key  : voting_minutes_2025-08-07.pdf_15
+Value: Date:2025-08-06
+15. Tao's Newbury, Inc. 
+ 
+Doing business as: Tao's 
+336 Newbury St, Boston, MA 02115 
+License #:  LB-603680 
+Has applied for a Retail Package Store All-Alcoholic Beverages License to be exercised on the above - 
+Premise also known as 334-336 Newbury Street - 3823SF retail space with 1 entrance and 1 exit for 
+customers (336) and 1 entrance and 1 exit for warehouse (334); to include various shelving and display 
+units, refrigerators/freezers along with back wall, and storage in the rear. No outdoor space. 
+Manager:  Jason Blackburn 
+Closing Time:  9:00 PM 
+ 
+Granted 
+ 
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_16
+Value: Date:2025-08-06
+16. MDM Wine6, LLC 
+ 
+Doing business as: VinoDivino 
+533-545 Commonwealth Ave, Boston, MA 02215 
+License #:  LB-603706 
+Has applied for a Retail Package Store All-Alcoholic Beverages License to be exercised on the above - 
+(Premise located at 543 Commonwealth Ave, 1st Floor) On one floor and containing approximately 
+1,606 sq ft, contains five rooms. Entrance opens to display room with shelves, cooler, and point of sale. 
+Tasting room to left side of display room. Storage room with exit on rear right side. Dishroom and 
+bathrooms rear left side. 
+Manager:  Angelo David Ucci 
+Closing Time:  11:00 PM 
+Attorney:  Thomas P. Miller 
+ 
+Granted 
+Condition: No nips (miniature bottles), no singles 
+ 
+ 
+THE FOLLOWING APPLICATION WAS COMPLETED PRIOR TO THE MAY 23 
+APPLICATION DEADLINE. THE BOARD WILL DEFER DELIBERATION TO CONSIDER 
+THIS APPLICATION WITH ALL OTHERS THAT WERE RECEIVED BY MAY 23  
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_17
+Value: Date:2025-08-06
+17. Liuyishou Hotpot Boston, LLC 
+ 
+Doing business as: Liuyishou Hotpot  
+702 Washington St, Boston, MA 02111 
+License #:  LB-603744 
+Has applied for a Common Victualler 7 Day Wines and Malt Beverages License to be exercised on the 
+above - (5,532SF total with 1 entrance/exit) On two floors: First floor approx. 3,429sf in two rooms 
+with seating for 60 and kitchen; basement approx. 2,103sf, with storage, walk in coolers, prep area and 
+office. 
+Manager:  Po Ching Chan 
+Closing Time:  11:30 PM 
+Attorney:  Thomas P. Miller 
+ 
+Deferred
+------
+Key  : voting_minutes_2025-08-07.pdf_18
+Value: Date:2025-08-06
+18. RFC LA, LLC 
+ 
+Doing business as: Roger's Fish & Chips 
+1 Harborside Drive, East Boston, MA 02128 
+License #:  LB-603766 
+Has applied for a Common Victualler 7 Day (Airport) All-Alcoholic Beverages License to be exercised 
+on the above - Space known as Unit AS-2-A02 in Terminal A consisting of 700 square feet. Includes a 
+limited food prep space and is in an area in the Terminal occupied by a number of concessionaires with 
+an adjacent food court seating area where alcohol will be consumed. 
+Manager:  Roger Berkowitz 
+Closing Time:  2:00 AM 
+Attorney:  Richard Heller 
+ 
+Granted 
+ 
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_19
+Value: Date:2025-08-06
+19. South Bay Fields Pie Company, LLC 
+ 
+Doing business as: Sally's Apizza 
+9 District Ave, Dorchester, MA 02125 
+License #:  LB-603681 
+Has applied for a Common Victualler (South Bay Restricted) 7 Day All-Alcoholic Beverages License to 
+be exercised on the above  4965 sq. ft. of restaurant space and an additional 967 sq. ft. outdoor patio 
+located on private property, including a bar, kitchen, pizza kitchen, prep space, cooler, office, storage, 
+dining area and bathrooms in Suite #400 on the ground floor of Building D located in the shopping 
+center known as South Bay. The premises contains indoor seating for 138, including 15 at the bar and 
+an additional 48 on the outdoor patio, 2 entrances and 3 exits. Outdoor patio is seasonal, it will operate 
+from May-November and close at 10 pm daily. 
+Manager:  Eric Gelfond 
+Closing Time:  11:00 PM 
+Attorney:  Adam R. Barnosky 
+ 
+Granted
+THE FOLLOWING APPLICATIONS WERE NOT COMPLETE PRIOR TO THE MAY 23 
+APPLICATION DEADLINE. THE BOARD WILL DEFER DELIBERATION UNTIL THE 
+NEXT APPLICATION DEADLINE HAS PASSED.   
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_20
+Value: Date:2025-08-06
+20. 1750 Washington, Inc. 
+ 
+Doing business as: Nan Xiang Express 
+1750 Washington St, Roxbury, MA 02118 
+License #:  LB-603690 
+Has applied for a Common Victualler 7 Day Wines and Malt Beverages License to be exercised on the 
+above - In one room on first floor with 45 seats, kitchen, storage and bathrooms in rear consisting of 
+2887 total square feet. (1 entrance, 3 exits). 
+Manager:  So Lim Ting 
+Closing Time:  12:00 AM 
+Attorney:  Carolyn M. Conway 
+ 
+Deferred 
+ 
+ 
+------
+Key  : voting_minutes_2025-08-07.pdf_21
+Value: Date:2025-08-06
+21. Beitna, LLC 
+ 
+Doing business as: BEY 
+280 Shawmut Ave, Roxbury, MA 02118 
+License #:  LB-603763 
+Has applied for a Common Victualler 7 Day All-Alcoholic Beverages License to be exercised on the 
+above  Premise consists of approximately 1,800 square feet on ground floor and basement (1 entrance, 
+2 exits). Ground floor main room for dining with seats for 41 patrons. Kitchen rear left, bathrooms rear 
+right. Stairway to basement front left. Basement level dining area with seats for 26 patrons. Prep kitchen 
+and exit in rear. 
+Manager:  Lina Samaha 
+Closing Time:  12:00 AM 
+Attorney:  Thomas P. Miller 
+ 
+Deferred
+------
+======================================================================
+SECTION: LICENSE_JSON_DATA (list, len=21)
+----------------------------------------------------------------------
+  [0] {'minutes_date': '2025-08-06', 'license_number': 'LB-603611', 'business_name': 'Chickin Worx, Inc.', 'dba_name': 'Burg & Shaw', 'address': '80 Boylston St, Boston, MA 02116', 'street_number': '80', 'street_name': 'Boylston St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02116', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Ahmed Kadous', 'attorney': None, 'status': 'granted', 'status_detail': 'Granted', 'details': 'Has applied for a Common Victualler License to be exercised on the above -750SF Ground-floor, takeout-only restaurant includes a customer area, kitchen, back-of-house ware washing and storage areas, a walk-in cooler, and an employee restroom.', 'entity_number': '1', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [1] {'minutes_date': '2025-08-06', 'license_number': 'LB-604354', 'business_name': 'Pink Carrot Back Bay, LLC', 'dba_name': 'Pink Carrot', 'address': '400 Newbury St, Boston, MA 02115', 'street_number': '400', 'street_name': 'Newbury St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02115', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Robert Fautz', 'attorney': None, 'status': 'granted', 'status_detail': 'Granted', 'details': 'Has applied for a Common Victualler License to be exercised on the above -Single-story quick-serve restaurant with a takeout option located in Suite 1000. The interior includes 24 seats on the main floor, a kitchen, and two rear bathrooms. A seasonal private outdoor patio (April through October) offers an additional 12 seats and operates during the same hours as the indoor restaurant.', 'entity_number': '2', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [2] {'minutes_date': '2025-08-06', 'license_number': 'LB-131728', 'business_name': 'XZelent, Inc.', 'dba_name': "Fiskie's Cafe", 'address': '27 Harbor Point Blvd, Dorchester, MA 02125', 'street_number': '27', 'street_name': 'Harbor Point Blvd', 'city': 'Dorchester', 'state': 'MA', 'zipcode': '02125', 'alcohol_type': 'all alcoholic beverages', 'manager': None, 'attorney': None, 'status': 'granted', 'status_detail': 'Granted, with a closing hour of 1:00 AM', 'details': 'Holder of a Common Victualler License has petitioned to Change the Closing Hour of the licensed business - From: 7:00 AM - 11:00 PM To: 7:00 AM - 3:00 AM.', 'entity_number': '3', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [3] {'minutes_date': '2025-08-06', 'license_number': 'LB-99779', 'business_name': 'Nite Lite Cafe, LLC', 'dba_name': 'Nite Lite Cafe', 'address': '89 Charles St, Boston, MA 02114', 'street_number': '89', 'street_name': 'Charles St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02114', 'alcohol_type': 'wines and malt beverages', 'manager': None, 'attorney': 'Elizabeth Pisano', 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of a Common Victualler 7 Day Wines and Malt Beverages with Liqueurs License has petitioned to change the DBA of the licensed business -  From: Nite Lite Cafe To: 89 Charles.', 'entity_number': '4', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [4] {'minutes_date': '2025-08-06', 'license_number': 'LB-101635', 'business_name': 'Beau Geste XXV, LLC', 'dba_name': 'Doubletree Guest Suites', 'address': '400 Soldiers Field Rd, Allston, MA 02134', 'street_number': '400', 'street_name': 'Soldiers Field Rd', 'city': 'Allston', 'state': 'MA', 'zipcode': '02134', 'alcohol_type': 'all alcoholic beverages', 'manager': None, 'attorney': None, 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of an Innholder All-Alcoholic Beverages License has petitioned to change the manager of the licensed business - From: Tarun Shanker To: Fergal Gildea.', 'entity_number': '5', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [5] {'minutes_date': '2025-08-06', 'license_number': 'LB-98811', 'business_name': 'Chilton Club', 'dba_name': None, 'address': '150-152 Commonwealth Ave, Boston, MA 02116', 'street_number': '150-152', 'street_name': 'Commonwealth Ave', 'city': 'Boston', 'state': 'MA', 'zipcode': '02116', 'alcohol_type': 'all alcoholic beverages', 'manager': None, 'attorney': None, 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of a Club All-Alcoholic Beverages License has petitioned for a change of Officers/Directors.', 'entity_number': '6', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [6] {'minutes_date': '2025-08-06', 'license_number': 'LB-485388', 'business_name': 'Trinity Stuart Concessions, LLC', 'dba_name': 'The Raffles Hotel', 'address': '40 Trinity Place, Boston, MA 02116', 'street_number': '40', 'street_name': 'Trinity Pl', 'city': 'Boston', 'state': 'MA', 'zipcode': '02116', 'alcohol_type': 'all alcoholic beverages', 'manager': None, 'attorney': 'Elizabeth Pisano', 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of an Innholder All-Alcoholic Beverages License has petitioned for a change of Ownership Interest. Secondly, has petitioned for a change of Officers/Directors/LLC Managers.', 'entity_number': '7', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [7] {'minutes_date': '2025-08-06', 'license_number': 'LB-353145', 'business_name': 'GB LL Holdings MA, LLC', 'dba_name': 'goPuff', 'address': '371 Dorchester Ave, South Boston, MA 02127', 'street_number': '371', 'street_name': 'Dorchester Ave', 'city': 'South Boston', 'state': 'MA', 'zipcode': '02127', 'alcohol_type': 'all alcoholic beverages', 'manager': None, 'attorney': "Caroline O'Connell", 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of a Retail Package Store All-Alcoholic Beverages License has petitioned for a change of Ownership Interest. Secondly, has petitioned for a change of Officers/Directors/LLC Managers. Lastly, has petitioned to change the manager of the licensed business - From: Christopher Walsh To: Kelly Carillo.', 'entity_number': '8', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [8] {'minutes_date': '2025-08-06', 'license_number': 'LB-101867', 'business_name': 'GB LL Holdings MA, LLC', 'dba_name': 'Boston Liquors', 'address': '225-227 Cambridge St, Allston, MA 02134', 'street_number': '225-227', 'street_name': 'Cambridge St', 'city': 'Allston', 'state': 'MA', 'zipcode': '02134', 'alcohol_type': 'all alcoholic beverages', 'manager': None, 'attorney': "Caroline O'Connell", 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of a Retail Package Store All-Alcoholic Beverages License has petitioned to amend the description of the licensed business - From: 225, 227 Cambridge Street and 361 North Harvard Street, in one room first floor with rear room for stock. To: 225, 227 Cambridge Street and 361 North Harvard Street. The first floor is 8,000 square feet and has two rooms, one of which is for stock. The basement has 3,150 square feet and has two rooms, one which is 3,000 sq. ft and one which is 150 sq.ft. Secondly, has petitioned for a change of Ownership Interest. Thirdly, has petitioned for a change of Officers/Directors/LLC Managers. Lastly, has petitioned to change the manager of the licensed business - From: Jamie Villanueva To: Nam Sam.', 'entity_number': '9', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [9] {'minutes_date': '2025-08-06', 'license_number': 'LB-101663', 'business_name': 'Hersha Hospitality Management, L.P.', 'dba_name': 'Bulfinch Social at the Boxer Hotel', 'address': '119 Merrimac St, Boston, MA 02114', 'street_number': '119', 'street_name': 'Merrimac St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02114', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Ignacio Casanova Hausmann', 'attorney': 'Dennis A. Quilty', 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of an Innholder All-Alcoholic Beverages License has petitioned to transfer the license from the above - To: BM Merrimac Hotel, LLC dba Bulfinch Social at Boxer Hotel (at the same location). Ignacio Casanova Hausmann, Manager. 2:00 AM Closing Hour. Updating the description of premise as follows: In whole of said building for the operation of a full service hotel with 80 guest rooms, with restaurant and lounge on ground floor with bar and approximately 49 seats. All together comprised of 39,100 square feet with 4 entrances and exits.', 'entity_number': '10', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [10] {'minutes_date': '2025-08-06', 'license_number': 'LB-99350', 'business_name': 'Frank Pezzano', 'dba_name': "U'Sarraceno Restaurant", 'address': '286 Hanover St, Boston, MA 02113', 'street_number': '286', 'street_name': 'Hanover St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02113', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Frank Pezzano', 'attorney': 'Carolyn M. Conway', 'status': 'granted', 'status_detail': 'Granted', 'details': 'Holder of a Common Victualler 7 Day All-Alcoholic Beverages License has petitioned to transfer the license from the above - To: F.P. Restaurant, Inc. (with updated stockholders and officers) dba Saraceno/Bella Vista (at the same location). Frank Pezzano, Manager. 1:00 AM Closing Hour. Secondly, has petitioned to amend the description of the licensed premise -From: One room on Basement Level - One room on Street Level and Kitchen - Storage in Basement Level. To: (7200 SF total, 2 entrances, 3 exits) In three floors: (1) basement level, totaling 2400 square feet, in two (2)rooms with 64 seats and 36 seats respectively, office and bathrooms; first floor level, totaling 2400 square feet, in two rooms: the first room with 40 seats, bathroom and kitchen in rear, and the second room with a 12-seat bar and table seating of 20, a second kitchen and bathroom in rear; the second floor level, totaling 2400 square feet, in two rooms, the first room for liquor and sundries storage and the second room for dining with 57 seats.', 'entity_number': '11', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [11] {'minutes_date': '2025-08-06', 'license_number': 'LB-99764', 'business_name': 'Grotto, Inc.', 'dba_name': 'Grotto Restaurant', 'address': '37 Bowdoin St, Boston, MA 02114', 'street_number': '37', 'street_name': 'Bowdoin St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02114', 'alcohol_type': 'wines and malt beverages', 'manager': '02116 Justine Zozula', 'attorney': 'Nicholas J. Zozula', 'status': 'granted', 'status_detail': 'Granted', 'details': "Holder of a Common Victualler 7 Day Wines and Malt Beverages with Liqueurs License has petitioned to transfer the license and the location - From: Grotto, Inc. located at 37 Bowdoin St, Boston, MA 02114 To: AV 565 Boylston, LLC dba All'Antico Vinaio located at 565 Boylston St, Boston, MA 02116 Justine Zozula, Manager. 1:00 AM Closing Hour. Premises consists of 3,680 square feet on ground floor and basement level. One entrance, two exits. Front entrance on Boylston Street. Dining area with seating for 30 patrons. Kitchen area and prep table to the right center, two bathrooms and refrigerators to the left center. Additional prep area in the rear. Basement for storage. Outdoor patio seating for 12 patrons on private property. Patio is approximately 391 square feet and open seasonally from April 1 to October 31, closing hour same as indoors.", 'entity_number': '12', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [12] {'minutes_date': '2025-08-06', 'license_number': 'LB-603679', 'business_name': 'Bon Sole Market, LLC', 'dba_name': 'Bon Sole Market', 'address': '48 Blue Hill Ave, Roxbury, MA 02119', 'street_number': '48', 'street_name': 'Blue Hill Ave', 'city': 'Roxbury', 'state': 'MA', 'zipcode': '02119', 'alcohol_type': 'wines and malt beverages', 'manager': 'Mac-Clen Pierre', 'attorney': None, 'status': 'deferred', 'status_detail': 'Deferred to the August 28 Voting Hearing', 'details': 'Has applied for a Retail Package Store Wines and Malt Beverages License to be exercised on the above - 2100 SF Convenience/Grocery store located on the first floor of a mixed-use building with 1 entrance/ 1 exit. Front of the store contains (3) 2-door coolers, shelves for snacks, and checkout area. Back of store contains (3) additional 2-door coolers and shelves for groceries and storage.', 'entity_number': '13', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [13] {'minutes_date': '2025-08-06', 'license_number': 'LB-603676', 'business_name': 'Aguasvivas Market, Inc.', 'dba_name': 'Aguasvivas Market', 'address': '926 Morton St, Dorchester, MA 02124', 'street_number': '926', 'street_name': 'Morton St', 'city': 'Dorchester', 'state': 'MA', 'zipcode': '02124', 'alcohol_type': 'wines and malt beverages', 'manager': 'Angel Aguasvivas Lara', 'attorney': 'Travis J. Jacobs', 'status': 'deferred', 'status_detail': 'Deferred to the August 28 Voting Hearing', 'details': 'Has applied for a Retail Package Store Wines and Malt Beverages License to be exercised on the above - 820SF convenience store on 1 floor with 1 entrance/2 exits. As you walk in, the service counter is to the left; shelving units and refrigerators throughout; additional 820SF in the basement for storage only.', 'entity_number': '14', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [14] {'minutes_date': '2025-08-06', 'license_number': 'LB-603680', 'business_name': "Tao's Newbury, Inc.", 'dba_name': "Tao's", 'address': '336 Newbury St, Boston, MA 02115', 'street_number': '336', 'street_name': 'Newbury St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02115', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Jason Blackburn', 'attorney': None, 'status': 'granted', 'status_detail': 'Granted', 'details': 'Has applied for a Retail Package Store All-Alcoholic Beverages License to be exercised on the above - Premise also known as 334-336 Newbury Street - 3823SF retail space with 1 entrance and 1 exit for customers (336) and 1 entrance and 1 exit for warehouse (334); to include various shelving and display units, refrigerators/freezers along with back wall, and storage in the rear. No outdoor space.', 'entity_number': '15', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [15] {'minutes_date': '2025-08-06', 'license_number': 'LB-603706', 'business_name': 'MDM Wine6, LLC', 'dba_name': 'VinoDivino', 'address': '533-545 Commonwealth Ave, Boston, MA 02215', 'street_number': '533-545', 'street_name': 'Commonwealth Ave', 'city': 'Boston', 'state': 'MA', 'zipcode': '02215', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Angelo David Ucci', 'attorney': 'Thomas P. Miller', 'status': 'deferred', 'status_detail': 'APPLICATION DEADLINE. THE BOARD WILL DEFER DELIBERATION TO CONSIDER', 'details': 'Has applied for a Retail Package Store All-Alcoholic Beverages License to be exercised on the above - (Premise located at 543 Commonwealth Ave, 1st Floor) On one floor and containing approximately 1,606 sq ft, contains five rooms. Entrance opens to display room with shelves, cooler, and point of sale. Tasting room to left side of display room. Storage room with exit on rear right side. Dishroom and bathrooms rear left side.', 'entity_number': '16', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [16] {'minutes_date': '2025-08-06', 'license_number': 'LB-603744', 'business_name': 'Liuyishou Hotpot Boston, LLC', 'dba_name': 'Liuyishou Hotpot', 'address': '702 Washington St, Boston, MA 02111', 'street_number': '702', 'street_name': 'Washington St', 'city': 'Boston', 'state': 'MA', 'zipcode': '02111', 'alcohol_type': 'wines and malt beverages', 'manager': 'Po Ching Chan', 'attorney': 'Thomas P. Miller', 'status': 'deferred', 'status_detail': 'Deferred', 'details': 'Has applied for a Common Victualler 7 Day Wines and Malt Beverages License to be exercised on the above - (5,532SF total with 1 entrance/exit) On two floors: First floor approx. 3,429sf in two rooms with seating for 60 and kitchen; basement approx. 2,103sf, with storage, walk in coolers, prep area and office.', 'entity_number': '17', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [17] {'minutes_date': '2025-08-06', 'license_number': 'LB-603766', 'business_name': 'RFC LA, LLC', 'dba_name': "Roger's Fish & Chips", 'address': '1 Harborside Drive, East Boston, MA 02128', 'street_number': '1', 'street_name': 'Harborside Dr', 'city': 'East Boston', 'state': 'MA', 'zipcode': '02128', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Roger Berkowitz', 'attorney': 'Richard Heller', 'status': 'granted', 'status_detail': 'Granted', 'details': 'Has applied for a Common Victualler 7 Day (Airport) All-Alcoholic Beverages License to be exercised on the above - Space known as Unit AS-2-A02 in Terminal A consisting of 700 square feet. Includes a limited food prep space and is in an area in the Terminal occupied by a number of concessionaires with an adjacent food court seating area where alcohol will be consumed.', 'entity_number': '18', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [18] {'minutes_date': '2025-08-06', 'license_number': 'LB-603681', 'business_name': 'South Bay Fields Pie Company, LLC', 'dba_name': "Sally's Apizza", 'address': '9 District Ave, Dorchester, MA 02125', 'street_number': '9', 'street_name': 'District Ave', 'city': 'Dorchester', 'state': 'MA', 'zipcode': '02125', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Eric Gelfond', 'attorney': 'Adam R. Barnosky', 'status': 'deferred', 'status_detail': 'APPLICATION DEADLINE. THE BOARD WILL DEFER DELIBERATION UNTIL THE', 'details': 'Has applied for a Common Victualler (South Bay Restricted) 7 Day All-Alcoholic Beverages License to be exercised on the above  4965 sq. ft. of restaurant space and an additional 967 sq. ft. outdoor patio located on private property, including a bar, kitchen, pizza kitchen, prep space, cooler, office, storage, dining area and bathrooms in Suite #400 on the ground floor of Building D located in the shopping center known as South Bay. The premises contains indoor seating for 138, including 15 at the bar and an additional 48 on the outdoor patio, 2 entrances and 3 exits. Outdoor patio is seasonal, it will operate from May-November and close at 10 pm daily.', 'entity_number': '19', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [19] {'minutes_date': '2025-08-06', 'license_number': 'LB-603690', 'business_name': '1750 Washington, Inc.', 'dba_name': 'Nan Xiang Express', 'address': '1750 Washington St, Roxbury, MA 02118', 'street_number': '1750', 'street_name': 'Washington St', 'city': 'Roxbury', 'state': 'MA', 'zipcode': '02118', 'alcohol_type': 'wines and malt beverages', 'manager': 'So Lim Ting', 'attorney': 'Carolyn M. Conway', 'status': 'deferred', 'status_detail': 'Deferred', 'details': 'Has applied for a Common Victualler 7 Day Wines and Malt Beverages License to be exercised on the above - In one room on first floor with 45 seats, kitchen, storage and bathrooms in rear consisting of 2887 total square feet. (1 entrance, 3 exits).', 'entity_number': '20', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+  [20] {'minutes_date': '2025-08-06', 'license_number': 'LB-603763', 'business_name': 'Beitna, LLC', 'dba_name': 'BEY', 'address': '280 Shawmut Ave, Roxbury, MA 02118', 'street_number': '280', 'street_name': 'Shawmut Ave', 'city': 'Roxbury', 'state': 'MA', 'zipcode': '02118', 'alcohol_type': 'all alcoholic beverages', 'manager': 'Lina Samaha', 'attorney': 'Thomas P. Miller', 'status': 'deferred', 'status_detail': 'Deferred', 'details': 'Has applied for a Common Victualler 7 Day All-Alcoholic Beverages License to be exercised on the above  Premise consists of approximately 1,800 square feet on ground floor and basement (1 entrance, 2 exits). Ground floor main room for dining with seats for 41 patrons. Kitchen rear left, bathrooms rear right. Stairway to basement front left. Basement level dining area with seats for 26 patrons. Prep kitchen and exit in rear.', 'entity_number': '21', 'file_name': 'voting_minutes_2025-08-07.pdf'}
+======================================================================
+SECTION: PDF_TEXT (str, len=18975)
+----------------------------------------------------------------------
+City of Boston 
+Mayor Michelle Wu 
+Licensing Board 
+ 
+ 
+ 
+ 
+Commissioners: 
+Kathleen M. Joyce, Chairman 
+Keeana S. Saxon 
+Liam P. Curran 
+Executive Secretary: 
+Daniel R. Green 
+ 
+ 
+Voting Hearing Agenda 
+August 7, 2025 
+(all commissioners present) 
+ 
+Licensed Premise Inspection Hearing on Tuesday, August 5, 2025 
+(Chairwoman Joyce was not present for the Licensed Premise Inspection Hearing) 
+ 
+1. K & G Entertainment LLC  
+ 
+Doing business as: Sidebar 
+Location: 14  16  Bromfield St Boston, MA  02108 
+License#: LB99416, Notice/Violation#: 037872, Category: CV7AL 
+Date: 03/30/2025 
+Notice: Assault and battery employee on patron in violation of M.G.L. ch. 138 s. 64, ch. 265 s. 13A. 
+Failure to notify police in violation of M.G.L. ch. 138 s. 64 and Board's rule 1.14B. 
+ 
+No Violation 
+The Board notes that the Licensee failed to preserve video of the incident 
+Correspondence from the Board 
+ 
+2. Twelve 22, LLC 
+ 
+Location: 1222  Washington St Roxbury, MA  02118 
+License#: LB99027, Notice/Violation#: 070287 
+10/1/24, Category: CV7AL 
+Date: 09/29/2024 
+Notice: Patron on patron drink spiking in violation of M.G.L. ch. 138 s. 64. 
+ 
+Violation - Warning 
+The Board notes that the Licensee failed to present a witness with firsthand knowledge of the 
+incident 
+Correspondence from the Board 
+3. 61 Brookline Restaurant, LLC  
+ 
+Doing business as: Loco Taqueria & Oyster Bar 
+Location: 61  Brookline Av Boston, MA  02215 
+License#: LB99217, Notice/Violation#: 022408, Category: CV7AL 
+Date: 02/02/2025 
+Notice: Assault and battery patron on patron in violation of M.G.L. ch. 138 s. 64, ch. 265 s. 13A. 
+ 
+Rescheduled to the next available hearing date 
+ 
+4. Little Haiti International Cuisine LLC  
+ 
+Doing business as: Little Haiti International Cuisine 
+Location: 1184  Hyde Park Av Hyde Park, MA  02136 
+License#: LB577222, Notice/Violation#: 26379, Category: CV7ALZ 
+Date: 05/24/2025 
+Notice: Patrons inside after 1:30 am closing in violation of M.G.L. ch. 138 s. 64. 
+ 
+No Violation 
+Correspondence from the Board 
+ 
+5. 186 Harvard Ave Bar LLC  
+ 
+Doing business as: Han 
+Location: 178  188  Harvard Av Allston, MA  02134 
+License#: LB99093, Notice/Violation#: 019826, Category: CV7AL 
+Date: 05/26/2025 
+Notice: Assault and battery dangerous weapon patron on employee in violation of M.G.L. ch. 138 s. 64, 
+ch. 265 s. 15A. 
+Assault and battery dangerous weapon patron on patron in violation of M.G.L. ch. 138 s. 64, ch. 265 s. 
+15A. 
+ 
+No Violation 
+Correspondence from the Board 
+ 
+6. Barcelona South End, LLC  
+ 
+Doing business as: Barcelona 
+Location: 525  Tremont St Boston, MA  02116 
+License#: LB99247, Notice/Violation#: 022003, Category: CV7AL 
+Date: 05/27/2025 
+Notice: Persons under 21 in possession of alcohol on premise in violation of M.G.L. ch. 138 s.34A, 
+34C, 6464A. 
+ 
+Violation - Warning 
+7. Asian Cuisine, Inc.  
+ 
+Doing business as: TyphoonRestaurant 
+Location: 725  Boylston St Boston, MA  02116 
+License#: LB98931, Notice/Violation#: 020046, Category: CV7AL 
+Date: 04/21/2025 
+Notice: Overcrowding  capacity 72, 99 mechanical count in violation of M.G.L. ch. 138 s. 64 and 
+Board's rule 1.03J, 1.06A,F. 
+Overcrowding patio  capacity 8, 54 on mechanical count in violation of M.G.L. ch. 138 s. 64 and 
+Board's rule 1.03J, 1.06A, F. 
+ 
+Violation - 2nd Warning 
+ 
+ 
+ 
+Transactional Hearing on Wednesday, August 6, 2025 
+ 
+1. Chickin Worx, Inc. 
+ 
+Doing business as: Burg & Shaw 
+80 Boylston St, Boston, MA 02116 
+License #:  LB-603611 
+Has applied for a Common Victualler License to be exercised on the above -750SF Ground-floor, 
+takeout-only restaurant includes a customer area, kitchen, back-of-house ware washing and storage 
+areas, a walk-in cooler, and an employee restroom. 
+Manager:  Ahmed Kadous 
+Hours of Operation:  10:00 AM to 1:00 AM 
+ 
+Granted 
+ 
+ 
+2. Pink Carrot Back Bay, LLC 
+ 
+Doing business as: Pink Carrot 
+400 Newbury St, Boston, MA 02115 
+License #:  LB-604354 
+Has applied for a Common Victualler License to be exercised on the above -Single-story quick-serve 
+restaurant with a takeout option located in Suite 1000. The interior includes 24 seats on the main floor, a 
+kitchen, and two rear bathrooms. A seasonal private outdoor patio (April through October) offers an 
+additional 12 seats and operates during the same hours as the indoor restaurant. 
+Manager:  Robert Fautz 
+Hours of Operation:  8:00 AM to 8:00 PM 
+ 
+Granted
+3. XZelent, Inc. 
+ 
+Doing business as: Fiskie's Cafe  
+27 Harbor Point Blvd, Dorchester, MA 02125 
+License #:  LB-131728 
+Holder of a Common Victualler License has petitioned to Change the Closing Hour of the licensed 
+business - From: 7:00 AM - 11:00 PM To: 7:00 AM - 3:00 AM. 
+ 
+Granted, with a closing hour of 1:00 AM 
+The Board requests written permission from the Licensee's landlord prior to issuance 
+ 
+ 
+4. Nite Lite Cafe, LLC 
+ 
+Doing business as: Nite Lite Cafe 
+89 Charles St, Boston, MA 02114 
+License #:  LB-99779 
+Holder of a Common Victualler 7 Day Wines and Malt Beverages with Liqueurs License has petitioned 
+to change the DBA of the licensed business -  From: Nite Lite Cafe To: 89 Charles. 
+Attorney:  Elizabeth Pisano 
+ 
+Granted 
+ 
+ 
+5. Beau Geste XXV, LLC 
+ 
+Doing business as: Doubletree Guest Suites 
+400 Soldiers Field Rd, Allston, MA 02134 
+License #:  LB-101635 
+Holder of an Innholder All-Alcoholic Beverages License has petitioned to change the manager of the 
+licensed business - From: Tarun Shanker To: Fergal Gildea. 
+ 
+Granted 
+ 
+ 
+6. Chilton Club 
+ 
+150-152 Commonwealth Ave, Boston, MA 02116 
+License #:  LB-98811 
+Holder of a Club All-Alcoholic Beverages License has petitioned for a change of Officers/Directors. 
+ 
+Granted
+7. Trinity Stuart Concessions, LLC 
+ 
+Doing business as: The Raffles Hotel 
+40 Trinity Place, Boston, MA 02116 
+License #:  LB-485388 
+Holder of an Innholder All-Alcoholic Beverages License has petitioned for a change of Ownership 
+Interest. Secondly, has petitioned for a change of Officers/Directors/LLC Managers. 
+Attorney:  Elizabeth Pisano 
+ 
+Granted 
+ 
+ 
+8. GB LL Holdings MA, LLC 
+ 
+Doing business as: goPuff 
+371 Dorchester Ave, South Boston, MA 02127 
+License #:  LB-353145 
+Holder of a Retail Package Store All-Alcoholic Beverages License has petitioned for a change of 
+Ownership Interest. Secondly, has petitioned for a change of Officers/Directors/LLC Managers. Lastly, 
+has petitioned to change the manager of the licensed business - From: Christopher Walsh To: Kelly 
+Carillo. 
+Attorney:  Caroline O'Connell 
+ 
+Granted 
+ 
+ 
+9. GB LL Holdings MA, LLC 
+ 
+Doing business as: Boston Liquors 
+225-227 Cambridge St, Allston, MA 02134 
+License #:  LB-101867 
+Holder of a Retail Package Store All-Alcoholic Beverages License has petitioned to amend the 
+description of the licensed business - From: 225, 227 Cambridge Street and 361 North Harvard Street, 
+in one room first floor with rear room for stock. To: 225, 227 Cambridge Street and 361 North Harvard 
+Street. The first floor is 8,000 square feet and has two rooms, one of which is for stock. The basement 
+has 3,150 square feet and has two rooms, one which is 3,000 sq. ft and one which is 150 sq.ft. Secondly, 
+has petitioned for a change of Ownership Interest. Thirdly, has petitioned for a change of  
+Officers/Directors/LLC Managers. Lastly, has petitioned to change the manager of the licensed business 
+- From: Jamie Villanueva To: Nam Sam. 
+Attorney:  Caroline O'Connell 
+ 
+Granted
+10. Hersha Hospitality Management, L.P. 
+ 
+Doing business as: Bulfinch Social at the Boxer Hotel  
+119 Merrimac St, Boston, MA 02114 
+License #:  LB-101663 
+Holder of an Innholder All-Alcoholic Beverages License has petitioned to transfer the license from the 
+above - To: BM Merrimac Hotel, LLC dba Bulfinch Social at Boxer Hotel (at the same location). 
+Ignacio Casanova Hausmann, Manager. 2:00 AM Closing Hour. Updating the description of premise as 
+follows: In whole of said building for the operation of a full service hotel with 80 guest rooms, with 
+restaurant and lounge on ground floor with bar and approximately 49 seats. All together comprised of 
+39,100 square feet with 4 entrances and exits. 
+Attorney:  Dennis A. Quilty 
+ 
+Granted 
+ 
+11. Frank Pezzano 
+ 
+Doing business as: U'Sarraceno Restaurant 
+286 Hanover St, Boston, MA 02113 
+License #:  LB-99350 
+Holder of a Common Victualler 7 Day All-Alcoholic Beverages License has petitioned to transfer the 
+license from the above - To: F.P. Restaurant, Inc. (with updated stockholders and officers) dba 
+Saraceno/Bella Vista (at the same location). Frank Pezzano, Manager. 1:00 AM Closing Hour. 
+Secondly, has petitioned to amend the description of the licensed premise -From: One room on 
+Basement Level - One room on Street Level and Kitchen - Storage in Basement Level. To: (7200 SF 
+total, 2 entrances, 3 exits) In three floors: (1) basement level, totaling 2400 square feet, in two (2)rooms 
+with 64 seats and 36 seats respectively, office and bathrooms; first floor level, totaling 2400 square feet, 
+in two rooms: the first room with 40 seats, bathroom and kitchen in rear, and the second room with a 
+12-seat bar and table seating of 20, a second kitchen and bathroom in rear; the second floor level, 
+totaling 2400 square feet, in two rooms, the first room for liquor and sundries storage and the second 
+room for dining with 57 seats. 
+Attorney:  Carolyn M. Conway 
+ 
+Granted
+12. Grotto, Inc. 
+ 
+Doing business as: Grotto Restaurant 
+37 Bowdoin St, Boston, MA 02114 
+License #:  LB-99764 
+Holder of a Common Victualler 7 Day Wines and Malt Beverages with Liqueurs License has petitioned 
+to transfer the license and the location - From: Grotto, Inc. located at 37 Bowdoin St, Boston, MA 
+02114 To: AV 565 Boylston, LLC dba All'Antico Vinaio located at 565 Boylston St, Boston, MA 
+02116. Justine Zozula, Manager. 1:00 AM Closing Hour. Premises consists of 3,680 square feet on 
+ground floor and basement level. One entrance, two exits. Front entrance on Boylston Street. Dining 
+area with seating for 30 patrons. Kitchen area and prep table to the right center, two bathrooms and 
+refrigerators to the left center. Additional prep area in the rear. Basement for storage. Outdoor patio 
+seating for 12 patrons on private property. Patio is approximately 391 square feet and open seasonally 
+from April 1 to October 31, closing hour same as indoors. 
+Attorney:  Nicholas J. Zozula 
+ 
+Granted 
+ 
+ 
+13. Bon Sole Market, LLC 
+ 
+Doing business as: Bon Sole Market 
+48 Blue Hill Ave, Roxbury, MA 02119 
+License #:  LB-603679 
+Has applied for a Retail Package Store Wines and Malt Beverages License to be exercised on the above 
+- 2100 SF Convenience/Grocery store located on the first floor of a mixed-use building with 1 entrance/ 
+1 exit. Front of the store contains (3) 2-door coolers, shelves for snacks, and checkout area. Back of 
+store contains (3) additional 2-door coolers and shelves for groceries and storage. 
+Manager:  Mac-Clen Pierre 
+Closing Time:  11:00 PM 
+ 
+Deferred to the August 28 Voting Hearing 
+ 
+ 
+14. Aguasvivas Market, Inc. 
+ 
+Doing business as: Aguasvivas Market 
+926 Morton St, Dorchester, MA 02124 
+License #:  LB-603676 
+Has applied for a Retail Package Store Wines and Malt Beverages License to be exercised on the above 
+- 820SF convenience store on 1 floor with 1 entrance/2 exits. As you walk in, the service counter is to 
+the left; shelving units and refrigerators throughout; additional 820SF in the basement for storage only. 
+Manager:  Angel Aguasvivas Lara 
+Closing Time:  11:00 PM 
+Attorney:  Travis J. Jacobs 
+ 
+Deferred to the August 28 Voting Hearing
+15. Tao's Newbury, Inc. 
+ 
+Doing business as: Tao's 
+336 Newbury St, Boston, MA 02115 
+License #:  LB-603680 
+Has applied for a Retail Package Store All-Alcoholic Beverages License to be exercised on the above - 
+Premise also known as 334-336 Newbury Street - 3823SF retail space with 1 entrance and 1 exit for 
+customers (336) and 1 entrance and 1 exit for warehouse (334); to include various shelving and display 
+units, refrigerators/freezers along with back wall, and storage in the rear. No outdoor space. 
+Manager:  Jason Blackburn 
+Closing Time:  9:00 PM 
+ 
+Granted 
+ 
+ 
+16. MDM Wine6, LLC 
+ 
+Doing business as: VinoDivino 
+533-545 Commonwealth Ave, Boston, MA 02215 
+License #:  LB-603706 
+Has applied for a Retail Package Store All-Alcoholic Beverages License to be exercised on the above - 
+(Premise located at 543 Commonwealth Ave, 1st Floor) On one floor and containing approximately 
+1,606 sq ft, contains five rooms. Entrance opens to display room with shelves, cooler, and point of sale. 
+Tasting room to left side of display room. Storage room with exit on rear right side. Dishroom and 
+bathrooms rear left side. 
+Manager:  Angelo David Ucci 
+Closing Time:  11:00 PM 
+Attorney:  Thomas P. Miller 
+ 
+Granted 
+Condition: No nips (miniature bottles), no singles 
+ 
+ 
+THE FOLLOWING APPLICATION WAS COMPLETED PRIOR TO THE MAY 23 
+APPLICATION DEADLINE. THE BOARD WILL DEFER DELIBERATION TO CONSIDER 
+THIS APPLICATION WITH ALL OTHERS THAT WERE RECEIVED BY MAY 23  
+ 
+17. Liuyishou Hotpot Boston, LLC 
+ 
+Doing business as: Liuyishou Hotpot  
+702 Washington St, Boston, MA 02111 
+License #:  LB-603744 
+Has applied for a Common Victualler 7 Day Wines and Malt Beverages License to be exercised on the 
+above - (5,532SF total with 1 entrance/exit) On two floors: First floor approx. 3,429sf in two rooms 
+with seating for 60 and kitchen; basement approx. 2,103sf, with storage, walk in coolers, prep area and 
+office. 
+Manager:  Po Ching Chan 
+Closing Time:  11:30 PM 
+Attorney:  Thomas P. Miller 
+ 
+Deferred
+18. RFC LA, LLC 
+ 
+Doing business as: Roger's Fish & Chips 
+1 Harborside Drive, East Boston, MA 02128 
+License #:  LB-603766 
+Has applied for a Common Victualler 7 Day (Airport) All-Alcoholic Beverages License to be exercised 
+on the above - Space known as Unit AS-2-A02 in Terminal A consisting of 700 square feet. Includes a 
+limited food prep space and is in an area in the Terminal occupied by a number of concessionaires with 
+an adjacent food court seating area where alcohol will be consumed. 
+Manager:  Roger Berkowitz 
+Closing Time:  2:00 AM 
+Attorney:  Richard Heller 
+ 
+Granted 
+ 
+ 
+19. South Bay Fields Pie Company, LLC 
+ 
+Doing business as: Sally's Apizza 
+9 District Ave, Dorchester, MA 02125 
+License #:  LB-603681 
+Has applied for a Common Victualler (South Bay Restricted) 7 Day All-Alcoholic Beverages License to 
+be exercised on the above  4965 sq. ft. of restaurant space and an additional 967 sq. ft. outdoor patio 
+located on private property, including a bar, kitchen, pizza kitchen, prep space, cooler, office, storage, 
+dining area and bathrooms in Suite #400 on the ground floor of Building D located in the shopping 
+center known as South Bay. The premises contains indoor seating for 138, including 15 at the bar and 
+an additional 48 on the outdoor patio, 2 entrances and 3 exits. Outdoor patio is seasonal, it will operate 
+from May-November and close at 10 pm daily. 
+Manager:  Eric Gelfond 
+Closing Time:  11:00 PM 
+Attorney:  Adam R. Barnosky 
+ 
+Granted
+THE FOLLOWING APPLICATIONS WERE NOT COMPLETE PRIOR TO THE MAY 23 
+APPLICATION DEADLINE. THE BOARD WILL DEFER DELIBERATION UNTIL THE 
+NEXT APPLICATION DEADLINE HAS PASSED.   
+ 
+20. 1750 Washington, Inc. 
+ 
+Doing business as: Nan Xiang Express 
+1750 Washington St, Roxbury, MA 02118 
+License #:  LB-603690 
+Has applied for a Common Victualler 7 Day Wines and Malt Beverages License to be exercised on the 
+above - In one room on first floor with 45 seats, kitchen, storage and bathrooms in rear consisting of 
+2887 total square feet. (1 entrance, 3 exits). 
+Manager:  So Lim Ting 
+Closing Time:  12:00 AM 
+Attorney:  Carolyn M. Conway 
+ 
+Deferred 
+ 
+ 
+21. Beitna, LLC 
+ 
+Doing business as: BEY 
+280 Shawmut Ave, Roxbury, MA 02118 
+License #:  LB-603763 
+Has applied for a Common Victualler 7 Day All-Alcoholic Beverages License to be exercised on the 
+above  Premise consists of approximately 1,800 square feet on ground floor and basement (1 entrance, 
+2 exits). Ground floor main room for dining with seats for 41 patrons. Kitchen rear left, bathrooms rear 
+right. Stairway to basement front left. Basement level dining area with seats for 26 patrons. Prep kitchen 
+and exit in rear. 
+Manager:  Lina Samaha 
+Closing Time:  12:00 AM 
+Attorney:  Thomas P. Miller 
+ 
+Deferred
+Non-Hearing Transactions 
+ 
+The following are applying for a new Common Victualler License at a previously licensed  
+location:  
+ 
+1. The Little Cocoa Bean Company, LLC 
+ 
+Doing business as:  Little Cocoa Bean  
+308 Congress St., Boston, MA 02210 
+License #:  LB604370 
+Has applied for a Common Victualler License to be exercised at a previously licensed location  00SF 
+Fastcasual restaurant designed for families, located on the first floor of the Boston Children's Museum. 
+The space includes a backofhouse kitchen area and is adjacent to the museum's lunchroom, which 
+offers guest seating and access to a restroom. A private seasonal patio (MayOctober) provides 
+additional seating for 15 and operates during the same business hours at the restaurant. 
+Manager:  Tracy Skelly 
+Hours of Operation:  8:00 AM to 5:00 PM 
+ 
+Granted 
+ 
+ 
+ 
+The Following has applied to make changes to their existing Lodging House License: 
+ 
+1. 476 Columbus, LLC  
+ 
+476 Columbus Av., Roxbury, MA 02118 
+License #: LB-418490 
+Has applied for a Change of Manager From: Keith Beardsley To: Paige Stone 
+ 
+Granted 
+ 
+ 
+The Following have applied for a One Day Amendment to Existing License: 
+ 
+1. Time Out Market (Boston) LLC  
+ 
+Doing business as: Time Out Market  
+401 Park Dr., Boston, MA 02215 
+License #: LB-99113 has applied for a one day amendment to existing license to include extending onto 
+the contiguous lawn for a Promotional Event on August 28, 2025 between the hours of 6 p.m. - 10 
+p.m. 
+Manager:Michael Minichello 
+ 
+Granted 
+2. Time Out Market (Boston) LLC 
+ 
+Doing business as: Time Out Market  
+401 Park Dr., Boston, MA 02215 
+License #: LB-99113 has applied for a one day amendment to existing license to include extending onto 
+the contiguous lawn for a Promotional Event on September 1, 2025, 2025 between the hours of 7 p.m. 
+- 10 p.m. 
+Manager:Michael Minichello 
+ 
+Granted 
+ 
+All Special One Day Alcohol Licenses have been approved 
+ 
+ 
+Old and New Business: 
+ 
+1. The Board has received notification that the Massachusetts Department of Revenue has seized, and 
+will be selling at auction to the highest bidder, the liquor license of Olives, Inc. d/b/a Figs, 42 Charles 
+St., Boston, MA 02108, License # LB-99536, for nonpayment of delinquent Massachusetts taxes, on 
+7/30/24. 
+ 
+Acknowledged 
+ 
+ 
+2. The Board has received notification that the Massachusetts Department of Revenue has seized, and 
+will be selling at auction to the highest bidder, the liquor license of Olives, Inc. d/b/a Figs, 67 Main St., 
+Charlestown, MA 02129, License # LB-99586, for nonpayment of delinquent Massachusetts taxes, on 
+7/30/24. 
+ 
+Acknowledged 
+======================================================================
+======================================================================
+
+2026-02-06 15:09:09,640 - INFO - Successfully wrote 21 licenses to ../data/licenses.json

@@ -10,7 +10,8 @@ st.set_page_config(
 )
 
 # Constants
-DATA_PATH = Path("../data/licenses.xlsx")
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_PATH = BASE_DIR / "data" / "licenses.xlsx"
 
 TARGETED_ZIPCODES = ["02126", "02121", "02119", "02124", "02136", "02125", "02122", "02118", "02128", "02131", "02130", "02129", "02132"]
 NON_TARGETED_ZIPCODES = ["02111", "02120", "02134", "02115", "02199", "02215", "02116", "02114", "02127", "02108", "02210", "02109", "02113", "02110", "02128"]

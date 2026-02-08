@@ -265,12 +265,15 @@ def render_meeting_chart(charts_df):
 def render_analysis_section(df):
     """Render the analysis section with date filtering and charts."""
     st.header("Analyzing Granted Licenses")
-
-    # Filter for granted licenses as per PRD
+    
     if "status" in df.columns:
-        chart_df = df[df["status"].str.lower() == "granted"]
+        chart_df = df[
+            df["status"]
+            .str.lower()
+            .isin(["granted", "active"])
+        ]
     else:
-        chart_df = df # Fallback
+        chart_df = df 
 
     if chart_df.empty:
         st.warning("No data available to display.")

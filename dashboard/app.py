@@ -68,10 +68,10 @@ def render_business_search(df):
 
     # Multi-line text area for input
     if search_mode == "Business Name":
-        placeholder_text = "Enter business names (one per line)\ne.g.\nStarbucks\nDunkin Donuts\nBoston Beer Company"
+        placeholder_text = "Enter business names (one per line)\ne.g.\nStarbucks\nThe Ginger Man\nNicole's Pizza"
         search_label = "Business Names"
     else:
-        placeholder_text = "Enter license numbers (one per line)\ne.g.\n123456\n789012\n345678"
+        placeholder_text = "Enter license numbers (one per line)\ne.g.\nLB-123456\nLB-789012\nLB-345678"
         search_label = "License Numbers"
 
     search_input = st.text_area(

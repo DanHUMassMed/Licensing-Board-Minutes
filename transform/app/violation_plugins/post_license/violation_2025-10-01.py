@@ -1,15 +1,13 @@
-# This module targets the September 17, 2020 hearing section and fixes
-# the company name by removing the quotes around it.
+# This module targets the October 1, 2025 license entity 3 and fixes
+# the deferred status which was missing
 
 from app import constants as const
 from app.violation_plugins.base import Plugin
-
 
 class Violation_2025_10_01(Plugin):
     priority = 10
 
     def query(self, store):
-        print("="*40)
         pdf_file_path = store.get(const.PDF_FILE_PATH)
         if "voting_minutes_2025-10-01" in pdf_file_path:
             return True

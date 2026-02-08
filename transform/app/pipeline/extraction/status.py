@@ -3,6 +3,7 @@ import re
 from .context import ExtractionContext
 
 STATUS_KEYWORDS = [
+    "Active",
     "Granted",
     "Deferred",
     "RE-SCHEDULED",
@@ -42,6 +43,8 @@ class StatusExtractor:
                         ctx.data["status"] = "rescheduled"
                     elif "withdrawn" in sd_lower:
                         ctx.data["status"] = "withdrawn"
+                    elif "active" in sd_lower:
+                        ctx.data["status"] = "active"
                     elif "continued" in sd_lower:
                         ctx.data["status"] = "continued"
                     elif any(kw in sd_lower for kw in ["deferred", "defer"]):

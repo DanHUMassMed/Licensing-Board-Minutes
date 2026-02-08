@@ -30,6 +30,5 @@ class CategoryExtractor:
                     ]
                 ):
                     ctx.data["alcohol_type"] = "all alcoholic beverages"
-                print(f"*********************88 {line}Category: {ctx.data['alcohol_type']}")
                 ctx.anchors["category_idx"] = idx
                 return

@@ -161,7 +161,6 @@ class BostonAddressParser:
             neighborhood_lower = neighborhood.lower()
             idx = addr_lower.rfind(neighborhood_lower)
             if idx > farthest_idx:
-                # print(f"Found {neighborhood} at index {idx}")
                 farthest_idx = idx
                 if selected_neighborhood and "Boston" in selected_neighborhood:
                     pass  # If we already have a Boston neighborhood, don't change it
@@ -276,79 +275,3 @@ class BostonAddressParser:
         return s
 
 
-####################################################################
-# THIS CODE IS NOT USED IN THE PARSER, IT IS JUST FOR TESTING
-####################################################################
-
-
-def main():
-    print(os.getcwd())
-    base_path = Path(__file__).resolve().parent.parent
-    input_json = base_path / "client/src/data/licenses.json"
-    output_csv = base_path / "client/src/data/parsed_addresses.csv"
-
-    parser = BostonAddressParser()
-
-    # Load JSON (expects a list of dicts)
-    with open(input_json, encoding="utf-8") as f:
-        records = json.load(f)
-
-    rows = []
-
-    for rec in records:
-        address = rec.get("address")
-
-        if not address:
-            continue
-
-        parsed = parser.parse_address(address)
-
-        row = {
-            "minutes_date": rec.get("minutes_date", ""),
-            "license_number": rec.get("license_number", ""),
-            "business_name": rec.get("business_name", ""),
-            "dba_name": rec.get("dba_name", ""),
-            "original_address": address,
-            "street_number": parsed.get("street_number", ""),
-            "full_street_name": parsed.get("full_street_name", ""),
-            "neighborhood": parsed.get("neighborhood", ""),
-            "state": parsed.get("state", ""),
-            "zipcode": parsed.get("zipcode", ""),
-            "alcohol_type": rec.get("alcohol_type", ""),
-            "status": rec.get("status", ""),
-            "attorney": rec.get("attorney", ""),
-            "manager": rec.get("manager", ""),
-            "file_name": rec.get("file_name", ""),
-        }
-
-        rows.append(row)
-
-    # Write CSV
-    fieldnames = [
-        "minutes_date",
-        "license_number",
-        "business_name",
-        "dba_name",
-        "original_address",
-        "street_number",
-        "full_street_name",
-        "neighborhood",
-        "state",
-        "zipcode",
-        "alcohol_type",
-        "status",
-        "attorney",
-        "manager",
-        "file_name",
-    ]
-
-    with open(output_csv, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
-
-    print(f"✔ Parsed {len(rows)} addresses → {output_csv}")
-
-
-if __name__ == "__main__":
-    main()

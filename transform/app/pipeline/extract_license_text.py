@@ -20,8 +20,29 @@ CHUNK_START_RE = re.compile(r"^\d+\.\s+.+")
 # Matches "License#", "license #", "LICENSE : #", etc.
 LICENSE_NUMBER_RE = re.compile(r"license\s*:?\s*#\s*:?", re.IGNORECASE)
 
-YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
+STATUS_KEYWORDS = [
+    "Active",
+    "Granted",
+    "Deferred",
+    "RE-SCHEDULED",
+    "RESCHEDULED",
+    "Continued",
+    "Withdrawn",
+    "No Violation",
+    "Failed to Appear",
+    "Dismissed",
+    "No Action Taken",
+    "Defer",
+    "Dismiss",
+    "Revised",
+    "Corrected",
+    "Rejected",
+    "Denied",
+]
 
+STOP_MARKERS = tuple(
+    k.lower() for k in STATUS_KEYWORDS
+)
 
 class LicenseTextExtractorStep:
     """Extracts license text from KVStore PDF text."""
@@ -77,7 +98,7 @@ class LicenseTextExtractorStep:
 
         except (ValueError, OverflowError):
             logger.warning(
-                f"*********Could not parse date from first line: {first_line!r}"
+                f"Could not parse date from first line: {first_line!r}"
             )
             pass
 
@@ -121,42 +142,78 @@ class LicenseTextExtractorStep:
 
         return "\n".join(output)
 
-    def _extract_license_text(self, hearing_section_lines, pdf_file_path):
-        basename = os.path.basename(pdf_file_path)
 
-        # Extract hearing date from the first line
-        first_non_empty_line = ""
-        for line in hearing_section_lines:
+    def _first_non_empty_line(self, lines: list[str]) -> str:
+        """
+        Returns the first non-empty line from a list of lines.
+        """
+        for line in lines:
             if line.strip():
-                first_non_empty_line = line.strip()
-                break
+                return line.strip()
+        return ""
 
-        hearing_date_line = self._get_hearing_date(first_non_empty_line, pdf_file_path)
+
+    def _starts_with_keyword(self, line: str) -> bool:
+        """
+        Return True if the line starts with any known status keyword
+        (case-insensitive).
+        """
+        line_lower = line.strip().lower()
+        return line_lower.startswith(STOP_MARKERS)
+
+    def _extract_license_text(self, hearing_section_lines, pdf_file_path):
 
         chunks = []
         current_chunk = []
+        in_license_chunk = False   # ✅ Move outside loop
+
+        basename = os.path.basename(pdf_file_path)
+
+        first_non_empty_line = self._first_non_empty_line(hearing_section_lines)
+        hearing_date_line = self._get_hearing_date(
+            first_non_empty_line,
+            pdf_file_path,
+        )
 
         for line in hearing_section_lines:
-            if CHUNK_START_RE.match(line):
-                if current_chunk:
-                    chunks.append(current_chunk)
-                current_chunk = [line]
-            elif current_chunk:
-                current_chunk.append(line)
 
+            # Start of chunk
+            if not in_license_chunk:
+
+                if CHUNK_START_RE.match(line):
+                    current_chunk = [line]
+                    in_license_chunk = True
+
+            # Inside chunk
+            else:
+                if self._starts_with_keyword(line):
+                    current_chunk.append(line)
+                    chunks.append(current_chunk)
+                    current_chunk = []
+                    in_license_chunk = False
+                else:
+                    current_chunk.append(line)
+
+        # ✅ Flush last chunk
         if current_chunk:
             chunks.append(current_chunk)
 
         extracted_chunks = {}
+
         for idx, chunk_lines in enumerate(chunks, 1):
             chunk_text = "\n".join(chunk_lines)
-
-            # Simplified: Keep chunk if it has at least one license number pattern
             if LICENSE_NUMBER_RE.search(chunk_text):
                 output_key = f"{basename}_{idx}"
-                chunk_text = hearing_date_line + "\n" + chunk_text
-                extracted_chunks[output_key] = chunk_text
+                extracted_chunks[output_key] = (
+                    hearing_date_line
+                    + "\n"
+                    + chunk_text
+                )
             else:
-                logger.warning(f"Skipping Chunk {idx} in {basename}: {chunk_text}")
+                logger.warning(
+                    f"Skipping Chunk {idx} in {basename}: {chunk_text}"
+                )
 
         return extracted_chunks
+
+        

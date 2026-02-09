@@ -1,23 +1,24 @@
-# This module targets the August 1, 2025 hearing section and fixes
-# 5. Eataly Boston, LLC which has no license number
+# This module targets the October 31, 2024 hearing section and fixes
+# Line confused as a header
 
 from app import constants as const
 from app.violation_plugins.base import Plugin
 
 
-class Violation_2024_08_01(Plugin):
+class Violation_2024_10_31(Plugin):
     priority = 10
 
     def query(self, store):
         pdf_file_path = store.get(const.PDF_FILE_PATH)
-        if "voting_minutes_2024-08-01" in pdf_file_path:
+        if "voting_minutes_2024-10-31" in pdf_file_path:
             return True
         return False
 
     def run(self, store):
         hearing_section = store.get(const.HEARING_SECTION)
         fixed = hearing_section.replace(
-            "Eataly\n800 Boylston St, Boston, MA 02199",
-            "Eataly\n800 Boylston St, Boston, MA 02199\nLicense #: LB-99355",
+            "8. Licensee must have",
+            "8 Licensee must have",
         )
+
         store.set(const.HEARING_SECTION, fixed)

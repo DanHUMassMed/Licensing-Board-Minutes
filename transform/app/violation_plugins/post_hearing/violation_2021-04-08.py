@@ -1,23 +1,25 @@
-# This module targets the August 1, 2025 hearing section and fixes
-# 5. Eataly Boston, LLC which has no license number
+# This module targets the January 4, 2024 hearing section and fixes
+# 5 NSQ, LLC that did not have DBA or Licenses data
 
 from app import constants as const
 from app.violation_plugins.base import Plugin
 
 
-class Violation_2024_08_01(Plugin):
+class Violation_2021_04_08(Plugin):
     priority = 10
 
     def query(self, store):
         pdf_file_path = store.get(const.PDF_FILE_PATH)
-        if "voting_minutes_2024-08-01" in pdf_file_path:
+        if "voting_minutes_yyyy-mm-dd" in pdf_file_path:
+            return True
+        elif "voting_minutes_2021-04-08" in pdf_file_path:
             return True
         return False
 
     def run(self, store):
         hearing_section = store.get(const.HEARING_SECTION)
         fixed = hearing_section.replace(
-            "Eataly\n800 Boylston St, Boston, MA 02199",
-            "Eataly\n800 Boylston St, Boston, MA 02199\nLicense #: LB-99355",
+            "5 NSQ, LLC",
+            "5 NSQ, LLC\nD/B/A: Ciao Roma\n5 NORTH SQ\nBoston, MA 02113",
         )
         store.set(const.HEARING_SECTION, fixed)

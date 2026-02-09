@@ -24,6 +24,7 @@ STOP_MARKERS = [
     "Non-Hearing Common Transactions",
     "Non-Hearing Transactions",
     "Non-Hearing Transactional:",
+    "Non-Hearing Transactional Items",
     "Non-Hearing Transactional Items:",
     "The following are applying for a new Common Victualler License",
     "The following are applying for a C.V. license at a previously licensed location",
